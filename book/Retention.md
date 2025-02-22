@@ -21,3 +21,12 @@
 
 - https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29
 - https://caseyaccidental.com/what-is-good-retention
+
+---
+村上春树在《当我谈跑步时，我谈些什么》里写到：
+
+Even when I ran my bar I followed the same policy. A lot of customers came to the bar. If one out of ten enjoyed the place and said he’d come again, that was enough. If one out of ten was a repeat customer, then the business would survive. To put it the other way, it didn’t matter if nine out of ten didn’t like my bar.  
+  
+This realization lifted a weight off my shoulders. Still, I had to make sure that the one person who did like the place really liked it. In order to make sure he did, I had to make my philosophy and stance clear-cut, and patiently maintain that stance no matter what. This is what I learned through running a business.
+
+这就是留存。
