@@ -1,3 +1,19 @@
+
+Paul Graham 在他的文章 https://paulgraham.com/newthings.html 中写到：
+
+Here it is: I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
+
+也就是他认为，做新产品时，基本原则是：
+
+1. 简单的解决方案
+2. 被忽视的问题
+3. 需要被解决的问题
+4. 非正式地发布
+5. 粗糙的第一版
+6. 快速迭代
+
+我们先从选产品开始。
+
 # 怎么选择新产品
 
 无论新人还是老手，在面对新产品选择时，都会犯错误。
