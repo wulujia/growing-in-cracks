@@ -1,20 +1,6 @@
+我们先从产品的评估开始。
 
-Paul Graham 在他的文章 https://paulgraham.com/newthings.html 中写到：
-
-Here it is: I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
-
-也就是他认为，做新产品时，基本原则是：
-
-1. 简单的解决方案
-2. 被忽视的问题
-3. 需要被解决的问题
-4. 非正式地发布
-5. 粗糙的第一版
-6. 快速迭代
-
-我们先从选产品开始。
-
-# 怎么选择新产品
+# 怎么评估新产品
 
 无论新人还是老手，在面对新产品选择时，都会犯错误。
 
@@ -56,6 +42,19 @@ Lean Canvas 更适合小步快跑、快速迭代的团队，因为它聚焦于�
 
 如果你仍然坚定，恭喜你，那就试试吧，就算输了，你应该也能学到不少东西。
 
+## Paul Graham 的观点
 
+Paul Graham 在他的文章 https://paulgraham.com/newthings.html 中写到：
+
+Here it is: I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
+
+也就是他认为，做新产品时，基本原则是：
+
+1. 简单的解决方案
+2. 被忽视的问题
+3. 需要被解决的问题
+4. 非正式地发布
+5. 粗糙的第一版
+6. 快速迭代
 
 
