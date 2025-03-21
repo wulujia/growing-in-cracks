@@ -1,3 +1,16 @@
+# 产品留存率
+
+一个最简单直接粗暴的建议是：留存率上来之前，不要花很多钱推广。
+
+想象一个水池，有进水口和出水口，用户获取相当于进水，用户流失相当于出水。产品运营阶段，每天都在进水和出水。低留存率，表示出水口大，这种情况下，新用户来了，也没办法留住他们。
+
+我的经验是：
+
+1. 先寻找与产品相匹配的获客方法（可能是免费的，也可能是付费的），尽可能找出低成本，稳定的新用户来源——比如每天 1-300 名新用户。
+2. 测试并不断提升用户留存率。
+
+---
+
 几乎人人都知道留存很重要，但，真的知道吗？如果我问你的产品：
 
 - 留存率是多少？
@@ -23,6 +36,7 @@
 - https://caseyaccidental.com/what-is-good-retention
 
 ---
+
 村上春树在《当我谈跑步时，我谈些什么》里写到：
 
 Even when I ran my bar I followed the same policy. A lot of customers came to the bar. If one out of ten enjoyed the place and said he’d come again, that was enough. If one out of ten was a repeat customer, then the business would survive. To put it the other way, it didn’t matter if nine out of ten didn’t like my bar.  
