@@ -16,4 +16,5 @@
 
 - 发布
     - [留存率](/book/retention.md)
+    - [非线性发展](/book/nonlinear.md)
 
