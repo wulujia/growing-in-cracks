@@ -5,7 +5,6 @@
 
 - 怎么决定做什么？
 	- [找夹缝](book/crack.md)
-	- [计算子弹](book/bullet.md)
 	- [小落点](book/pinpoint.md)
 	- [创意来源](/book/creativity.md)
 	- [下一版](/book/next.md)
@@ -16,13 +15,18 @@
 	- [产品金字塔](book/pyramid.md)
 	- [粗糙](book/rough.md)
 	- [从中间开始](book/middle.md)
+	- [结构](book/structure.md)
 
 - 怎么推广？
     - [非线性发展](/book/nonlinear.md)
+	- [推广](/book/marketing.md)
 
 - 怎么判断该不该转型或放弃？
     - [留存率](/book/retention.md)
+	- [转型](/book/pivot.md)
 
 - 我的其他问题
-	- [怎么用 AI 提效](/book/ai.md)
+	- [怎么迎接 AI](/book/ai.md)
 	- [怎么提高标准](/book/raise.md)
+	- [计算子弹](book/bullet.md)
+	- [有什么思考方法](book/framework.md)
