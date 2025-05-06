@@ -7,7 +7,6 @@
 	- [找夹缝](book/crack.md)
 	- [小落点](book/pinpoint.md)
 	- [创意来源](/book/creativity.md)
-	- [下一版](/book/next.md)
 
 - 怎么做？
 	- [产品评估](book/productselection.md)
@@ -16,6 +15,7 @@
 	- [粗糙](book/rough.md)
 	- [从中间开始](book/middle.md)
 	- [结构](book/structure.md)
+	- [下一布](/book/next.md)
 
 - 怎么推广？
     - [非线性发展](/book/nonlinear.md)
