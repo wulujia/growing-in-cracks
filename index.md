@@ -15,7 +15,7 @@
 	- [粗糙](book/rough.md)
 	- [从中间开始](book/middle.md)
 	- [结构](book/structure.md)
-	- [下一布](book/next.md)
+	- [下一步](book/next.md)
 
 - 怎么推广？
     - [非线性发展](book/nonlinear.md)
