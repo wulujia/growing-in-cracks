@@ -14,12 +14,14 @@
 	- [产品金字塔](book/pyramid.md)
 	- [粗糙](book/rough.md)
 	- [从中间开始](book/middle.md)
+	- [可运营的产品](book/marketingdesign.md)
 	- [结构](book/structure.md)
 	- [下一步](book/next.md)
 
 - 怎么推广？
     - [非线性发展](book/nonlinear.md)
 	- [推广](book/marketing.md)
+	- [用户社区]((book/community.md))
 
 - 怎么判断该不该转型或放弃？
     - [留存率](book/retention.md)
