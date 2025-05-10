@@ -29,4 +29,7 @@
 	- [怎么迎接 AI](book/ai.md)
 	- [怎么提高标准](book/raise.md)
 	- [计算子弹](book/bullet.md)
-	- [有什么思考方法](book/framework.md)
+
+- 参考资料
+	- [思维框架](book/framework.md)
+	- [几本书](book/books.md)
