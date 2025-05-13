@@ -24,6 +24,7 @@
 	- [用户社区]((book/community.md))
 
 - 怎么判断该不该转型或放弃？
+	- [连点成线](book/connectdots.md)
     - [留存率](book/retention.md)
 	- [转型](book/pivot.md)
 
