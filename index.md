@@ -23,17 +23,18 @@
 	- [收入](book/monetize.md)
 	- [下一步](book/next.md)
 
-- 怎么推广？
+- 怎么推？
     - [非线性发展](book/nonlinear.md)
 	- [推广](book/marketing.md)
 	- [用户社区](book/community.md)
 	- [内容输出](book/content.md)
 
-- 怎么判断该不该转型、放弃或放大？
+- 怎么转？
 	- [连点成线](book/connectdots.md)
     - [留存率](book/retention.md)
-	- [转型](book/pivot.md)
 	- [小而美还是做大做强](book/path.md)
+	- [转型](book/pivot.md)
+	- [怎么看待失败](book/fail.md)
 
 - 其他问题
 	- [怎么迎接 AI](book/ai.md)
