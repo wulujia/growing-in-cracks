@@ -1,5 +1,8 @@
 # 夹缝生长 - 小产品创业实践
 
+- 备选名字
+	- 夹缝中的小而美
+
 - 为什么写？
 	- [重新开始](book/restart.md)
 
@@ -12,6 +15,7 @@
 	- [产品评估](book/productselection.md)
 	- [提案](book/pitch.md)
 	- [产品金字塔](book/pyramid.md)
+	- [不一样](difference.md)
 	- [粗糙](book/rough.md)
 	- [从中间开始](book/middle.md)
 	- [可运营的产品](book/marketingdesign.md)
@@ -22,14 +26,16 @@
 - 怎么推广？
     - [非线性发展](book/nonlinear.md)
 	- [推广](book/marketing.md)
-	- [用户社区]((book/community.md))
+	- [用户社区](book/community.md)
+	- [内容输出](book/content.md)
 
-- 怎么判断该不该转型或放弃？
+- 怎么判断该不该转型、放弃或放大？
 	- [连点成线](book/connectdots.md)
     - [留存率](book/retention.md)
 	- [转型](book/pivot.md)
+	- [小而美还是做大做强](book/path.md)
 
-- 我的其他问题
+- 其他问题
 	- [怎么迎接 AI](book/ai.md)
 	- [怎么提高标准](book/raise.md)
 	- [价值观](book/value.md)
