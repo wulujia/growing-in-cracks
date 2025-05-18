@@ -10,18 +10,16 @@
 	- [找夹缝](book/crack.md)
 	- [小落点](book/pinpoint.md)
 	- [创意来源](book/creativity.md)
+	- [产品评估](book/productselection.md)
+	- [产品金字塔](book/pyramid.md)
 
 - 怎么做？
-	- [产品评估](book/productselection.md)
 	- [提案](book/pitch.md)
-	- [产品金字塔](book/pyramid.md)
 	- [不一样](difference.md)
 	- [粗糙](book/rough.md)
+	- [结构](book/structure.md)
 	- [从中间开始](book/middle.md)
 	- [可运营的产品](book/marketingdesign.md)
-	- [结构](book/structure.md)
-	- [收入](book/monetize.md)
-	- [下一步](book/next.md)
 
 - 怎么推？
     - [非线性发展](book/nonlinear.md)
@@ -29,7 +27,11 @@
 	- [用户社区](book/community.md)
 	- [内容输出](book/content.md)
 
-- 怎么转？
+- 怎么卖？
+	- [收入](book/monetize.md)
+	- [下一步](book/next.md)
+
+- 怎么调整？
 	- [连点成线](book/connectdots.md)
     - [留存率](book/retention.md)
 	- [小而美还是做大做强](book/path.md)
