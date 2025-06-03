@@ -18,17 +18,17 @@
 2. 客户细分（Customer Segments）：你的核心用户是谁？早期使用者是谁？
 3. 独特价值主张（Unique Value Proposition）：你给用户带来的独特好处是什么？为什么你和别人不一样？
 4. 解决方案（Solution）：用什么样的产品或服务形式来解决用户问题？
-5. 渠道（Channels）：如何触达用户？怎么让他们知道并使用你的产品？
-6. 收入来源（Revenue Streams）：你的盈利模式是什么？用户是否愿意付费，或者是否有其他可行的变现方式？
-7. 成本结构（Cost Structure）：主要成本来自哪里？人力、服务器、营销还是其他？
-8. 关键指标（Key Metrics）：哪些数据可以反映产品价值和业务健康度？（留存率、付费转化等）
-9. 不公平优势（Unfair Advantage）：你或你的团队是否具备一些别人难以复制的优势？（技术专利、独家资源、特殊关系网等）
+5. 关键指标（Key Metrics）：哪些数据可以反映产品价值和业务健康度？（留存率、付费转化等）
+6. 不公平优势（Unfair Advantage）：你或你的团队是否具备一些别人难以复制的优势？（技术专利、独家资源、特殊关系网等）
+7. 渠道（Channels）：如何触达用户？怎么让他们知道并使用你的产品？
+8. 成本结构（Cost Structure）：主要成本来自哪里？人力、服务器、营销还是其他？
+9. 收入来源（Revenue Streams）：你的盈利模式是什么？用户是否愿意付费，或者是否有其他可行的变现方式？
 
 Lean Canvas 更适合小步快跑、快速迭代的团队，因为它聚焦于问题-解决方案和早期验证，而不是去做全盘、长期的商业生态考量。
 
 ## 其他几个朴素的问题
 
-在创业画布之外，有些创业者经常讨论到的元素，也值得参考。
+在精益画布之外，有些创业者经常讨论到的元素，也值得参考。
 
 - 是不是高频：是不是像刷牙一样，每天早晚都要用的？
 - 是不是足够痛：是被子弹击中的痛，还是被蚊子咬了的痛？
@@ -48,16 +48,14 @@ Lean Canvas 更适合小步快跑、快速迭代的团队，因为它聚焦于�
 
 Paul Graham 在他的文章 https://paulgraham.com/newthings.html 中写到：
 
-Here it is: I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
+I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
 
 也就是他认为，做新产品时，基本原则是：
 
-1. 简单的解决方案
-2. 被忽视的问题
-3. 需要被解决的问题
-4. 非正式地发布
-5. 粗糙的第一版
-6. 快速迭代
+1. 被忽视但真的需要被解决的问题
+2. 简单的解决方案
+3. 粗糙的第一版，非正式地发布
+4. 快速迭代
 
 ## 不一样究竟是什么
 
