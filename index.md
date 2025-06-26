@@ -42,7 +42,6 @@
 	- [速度](book/speed.md)
 
 - 其他问题
-	- [怎么迎接 AI](book/ai.md)
 	- [怎么提高标准](book/raise.md)
 	- [价值观](book/value.md)
 	- [计算子弹](book/bullet.md)
@@ -52,5 +51,5 @@
 	- [远程办公](book/remote.md)
 
 - 参考资料
-	- [思维框架](book/framework.md)
+	- [推荐思维框架](book/framework.md)
 	- [推荐几本书](book/books.md)
