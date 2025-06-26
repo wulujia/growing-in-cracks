@@ -8,6 +8,7 @@
 
 - 怎么决定做什么？
 	- [找夹缝](book/crack.md)
+	- [黑客思维](book/hacker.md)
 	- [小落点](book/pinpoint.md)
 	- [创意来源](book/creativity.md)
 	- [产品评估](book/productselection.md)
@@ -21,22 +22,24 @@
 	- [从中间开始](book/middle.md)
 	- [可运营的产品](book/marketingdesign.md)
 
-- 怎么推？
+- 做出来了怎么推？
     - [非线性发展](book/nonlinear.md)
 	- [推广](book/marketing.md)
 	- [用户社区](book/community.md)
 	- [内容输出](book/content.md)
-
-- 怎么卖？
 	- [收入](book/monetize.md)
 	- [下一步](book/next.md)
 
-- 怎么调整？
+- 是不是需要调整方向？
 	- [连点成线](book/connectdots.md)
     - [留存率](book/retention.md)
 	- [小而美还是做大做强](book/path.md)
 	- [转型](book/pivot.md)
 	- [怎么看待失败](book/fail.md)
+
+- AI 带来了什么变化？
+	- [特种部队](book/spcialforces.md) 
+	- [速度](book/speed.md)
 
 - 其他问题
 	- [怎么迎接 AI](book/ai.md)
@@ -50,4 +53,4 @@
 
 - 参考资料
 	- [思维框架](book/framework.md)
-	- [几本书](book/books.md)
+	- [推荐几本书](book/books.md)
