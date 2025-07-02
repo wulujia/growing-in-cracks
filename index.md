@@ -10,6 +10,7 @@
 	- [找夹缝](book/crack.md)
 	- [黑客思维](book/hacker.md)
 	- [小落点](book/pinpoint.md)
+	- [时机](book/timing.md)
 	- [创意来源](book/creativity.md)
 	- [产品评估](book/productselection.md)
 	- [产品金字塔](book/pyramid.md)
