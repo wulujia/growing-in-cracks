@@ -36,7 +36,7 @@
     - [留存率](book/retention.md)
 	- [小而美还是做大做强](book/path.md)
 	- [转型](book/pivot.md)
-	- [怎么看待失败](book/fail.md)
+	- [怎么看待失败](fail.md)
 
 - AI 带来了什么变化？
 	- [特种部队](book/spcialforces.md) 
@@ -52,5 +52,6 @@
 	- [远程办公](book/remote.md)
 
 - 参考资料
+	- [好产品](goodproduct.md)
 	- [推荐思维框架](book/framework.md)
 	- [推荐几本书](book/books.md)
