@@ -21,14 +21,17 @@
 	- [粗糙](book/rough.md)
 	- [结构](book/structure.md)
 	- [从中间开始](book/middle.md)
+	- [现场](book/scene.md)
 	- [可运营的产品](book/marketingdesign.md)
 
 - 做出来了怎么推？
     - [非线性发展](book/nonlinear.md)
 	- [推广](book/marketing.md)
+	- [手把手](book/P2P.md)
 	- [用户社区](book/community.md)
 	- [内容输出](book/content.md)
 	- [收入](book/monetize.md)
+	- [品牌](brand.md.md)
 	- [下一步](book/next.md)
 
 - 是不是需要调整方向？
@@ -36,7 +39,7 @@
     - [留存率](book/retention.md)
 	- [小而美还是做大做强](book/path.md)
 	- [转型](book/pivot.md)
-	- [怎么看待失败](fail.md)
+	- [怎么看待失败](book/fail.md)
 
 - AI 带来了什么变化？
 	- [特种部队](book/spcialforces.md) 
@@ -52,6 +55,6 @@
 	- [远程办公](book/remote.md)
 
 - 参考资料
-	- [好产品](goodproduct.md)
+	- [好产品](book/goodproduct.md)
 	- [推荐思维框架](book/framework.md)
 	- [推荐几本书](book/books.md)
