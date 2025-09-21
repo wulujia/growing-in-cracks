@@ -51,6 +51,7 @@
 	- [计算子弹](book/bullet.md)
 	- [怎么出海](book/global.md)
 	- [风险控制](book/riskcontrol.md)
+	- [留白](book/blank.md)
 	- [工作与生活平衡](book/worklifebalance.md)
 	- [远程办公](book/remote.md)
 
