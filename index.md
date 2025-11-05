@@ -43,21 +43,18 @@
 		- [怎么看待失败](book/fail.md)
 
 - 第三部分：产品之外——拓宽你的缝隙
-
-- AI 带来了什么变化？
-	- [特种部队](book/spcialforces.md) 
-	- [速度](book/speed.md)
-
-- 经营问题
-	- [计算子弹](book/bullet.md)
-	- [怎么出海](book/global.md)
-	- [风险控制](book/riskcontrol.md)
-
-- 组织问题
-	- [怎么提高标准](book/raise.md)
-	- [价值观与工作规范](book/value.md)
-	- [工作与生活平衡](book/worklifebalance.md)
-	- [远程办公](book/remote.md)
+	- AI 带来了什么变化？
+		- [特种部队](book/spcialforces.md) 
+		- [速度](book/speed.md)
+	- 经营问题
+		- [计算子弹](book/bullet.md)
+		- [怎么出海](book/global.md)
+		- [风险控制](book/riskcontrol.md)
+	- 组织问题
+		- [怎么提高标准](book/raise.md)
+		- [价值观与工作规范](book/value.md)
+		- [工作与生活平衡](book/worklifebalance.md)
+		- [远程办公](book/remote.md)
 
 - 附录：参考资料
 	- [好产品](book/goodproduct.md)
