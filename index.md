@@ -9,7 +9,7 @@
 - 第一部分：夹缝生存的哲学——缝隙里的世界观
 	- [找夹缝](book/crack.md)
 	- [黑客思维](book/hacker.md)
-	- [小而美还是做大做强](book/path.md)
+	- [系统思考](book/systemthinking.md)
 	- [时机](book/timing.md)
 
 - 第二部分：开端：找到第一个切入点——哪里有缝隙
@@ -43,8 +43,8 @@
 		- [怎么看待失败](book/fail.md)
 
 - 第四部分：产品之外——拓宽你的缝隙
-
 	- 经营问题
+		- [小而美还是做大做强](book/path.md)
 		- [计算子弹](book/bullet.md)
 		- [怎么出海](book/global.md)
 		- [风险控制](book/riskcontrol.md)
