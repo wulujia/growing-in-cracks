@@ -44,7 +44,6 @@
 
 - 第四部分：产品之外——拓宽你的缝隙
 	- 经营问题
-		- [小而美还是做大做强](book/path.md)
 		- [计算子弹](book/bullet.md)
 		- [怎么出海](book/global.md)
 		- [风险控制](book/riskcontrol.md)
