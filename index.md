@@ -10,10 +10,10 @@
 	- [分形思想](book/crack.md)
 	- [黑客思维](book/hacker.md)
 	- [系统思考](book/systemthinking.md)
-	- [时机](book/timing.md)
 
 - 第二部分：开端：找到第一个切入点——哪里有缝隙
 	- [创意来源](book/creativity.md)
+	- [时机](book/timing.md)
 	- [小落点](book/pinpoint.md)
 	- [产品评估](book/productselection.md)
 	- [产品金字塔](book/pyramid.md)
@@ -58,5 +58,5 @@
 
 - 附录：参考资料
 	- [好产品](book/goodproduct.md)
-	- [推荐的思维模型](book/framework.md)
+	- [工具箱](book/framework.md)
 	- [推荐几本书](book/books.md)
