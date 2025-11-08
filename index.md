@@ -12,7 +12,7 @@
 	- [系统思考](book/systemthinking.md)
 
 - 第二部分：开端：找到第一个切入点——哪里有缝隙
-	- [创意来源](book/creativity.md)
+	- [创意](book/creativity.md)
 	- [时机](book/timing.md)
 	- [小落点](book/pinpoint.md)
 	- [产品评估](book/productselection.md)

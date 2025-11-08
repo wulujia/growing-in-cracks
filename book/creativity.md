@@ -1,4 +1,6 @@
-# 产品的创意从哪里来
+# 创意
+
+## 产品的创意从哪里来
 
 Customers don’t care about your solution; they care about their problems.
 
