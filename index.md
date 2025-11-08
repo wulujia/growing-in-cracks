@@ -47,6 +47,7 @@
 		- [计算子弹](book/bullet.md)
 		- [怎么出海](book/global.md)
 		- [风险控制](book/riskcontrol.md)
+		- [公司成长](book/company.md)
 	- 组织问题
 		- [怎么提高标准](book/raise.md)
 		- [价值观与工作规范](book/value.md)
