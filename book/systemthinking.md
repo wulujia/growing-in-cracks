@@ -14,7 +14,7 @@
 
 这是微信公开课准备的一个 H5 页面。你可以看到自己的第一个微信好友是谁，发过多少红包，收到过多少红包。这些数字像勋章一样，让人忍不住想晒到朋友圈。
 
-![systemthinking-01](systemthinking-01.png)
+![systemthinking-01](img/systemthinking-01.png)
 
 但这个链接原本计划在第二天的活动现场才发布。它意外泄露了。
 
