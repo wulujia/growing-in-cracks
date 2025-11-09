@@ -12,4 +12,10 @@ Customers don’t care about your solution; they care about their problems.
 
 “创新者的礼物”就是认识到问题没有完美的解决方案。问题和解决方案其实是一个硬币的两面。值得解决的新问题恰恰来自原有解决方案。
 
+## 做些类比与跨界
+
+## 做自己想要的
+
 自己就想要的，接受慢慢做十年的产品
+
+## 赖声川的创意学
