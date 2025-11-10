@@ -60,4 +60,4 @@
 - 附录：参考资料
 	- [好产品](book/goodproduct.md)
 	- [工具箱](book/framework.md)
-	- [推荐几本书](book/books.md)
+	- [参考资料](book/books.md)

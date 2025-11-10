@@ -1,1 +1,3 @@
-# 推荐几本书
+# 参考资料
+
+- https://paulgraham.com/startupideas.html
