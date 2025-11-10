@@ -7,12 +7,12 @@
 	- [重新开始](book/restart.md)
 
 - 第一部分：夹缝生存的哲学——缝隙里的世界观
-	- [分形思想](book/crack.md)
+	- [分形思维](book/crack.md)
 	- [黑客思维](book/hacker.md)
-	- [系统思考](book/systemthinking.md)
+	- [系统思维](book/systemthinking.md)
 
 - 第二部分：开端：找到第一个切入点——哪里有缝隙
-	- [创意](book/creativity.md)
+	- [创意来源](book/creativity.md)
 	- [时机](book/timing.md)
 	- [小落点](book/pinpoint.md)
 	- [产品评估](book/productselection.md)
