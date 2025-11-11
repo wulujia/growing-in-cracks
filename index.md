@@ -14,9 +14,9 @@
 - 第二部分：开端：找到第一个切入点——哪里有缝隙
 	- [创意来源](book/creativity.md)
 	- [时机](book/timing.md)
-	- [小落点](book/pinpoint.md)
 	- [产品评估](book/productselection.md)
 	- [产品金字塔](book/pyramid.md)
+	- [小落点](book/pinpoint.md)
 
 - 第三部分：具体执行
 	- 怎么做——从创意到产品，找准缝隙
