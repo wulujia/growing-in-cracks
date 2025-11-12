@@ -40,6 +40,7 @@
 		- [非线性发展](book/nonlinear.md)
 		- [连点成线](book/next.md)
 		- [转型](book/pivot.md)
+		- [长期](book/long-term.md)
 		- [怎么看待失败](book/fail.md)
 
 - 第四部分：产品之外——拓宽你的缝隙
