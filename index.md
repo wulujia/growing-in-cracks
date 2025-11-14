@@ -3,7 +3,7 @@
 - 前言：[重新开始](book/restart.md)
 
 - 第一部分：夹缝生存的哲学——缝隙里的世界观
-	- [分形思维](fractally.md)
+	- [分形思维](book/fractally.md)
 	- [黑客思维](book/hacker.md)
 	- [系统思维](book/systemthinking.md)
 
