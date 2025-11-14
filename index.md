@@ -1,13 +1,9 @@
 # 夹缝生长 - 小产品创业实践
 
-- 备选名字
-	- 夹缝中的小而美
-
-- 前言：为什么想写？
-	- [重新开始](book/restart.md)
+- 前言：[重新开始](book/restart.md)
 
 - 第一部分：夹缝生存的哲学——缝隙里的世界观
-	- [分形思维](book/crack.md)
+	- [分形思维](fractally.md)
 	- [黑客思维](book/hacker.md)
 	- [系统思维](book/systemthinking.md)
 
@@ -62,3 +58,5 @@
 	- [好产品](book/goodproduct.md)
 	- [工具箱](book/framework.md)
 	- [参考资料](book/books.md)
+
+- 后记：[夹缝中的小而美](crack.md)
