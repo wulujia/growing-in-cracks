@@ -1,5 +1,9 @@
 # 产品评估
 
+> "If it's not a hell yes, it's a no." 
+>
+> —— Derek Sivers
+
 ## 为什么要评估
 
 创业路上，你会遇到一个选择：选确定性还是选不确定性。

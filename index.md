@@ -20,7 +20,6 @@
 		- [不一样](book/difference.md)
 		- [结构](book/structure.md)
 		- [粗糙](book/rough.md)
-		- [从中间开始](book/middle.md)
 		- [留白](book/blank.md)
 		- [可运营的产品](marketingdesign.md)
 	- 做了怎么推——从产品到增长，在缝隙中扎根
