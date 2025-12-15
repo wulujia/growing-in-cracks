@@ -1,4 +1,4 @@
-### `gemini.md` 
+### `claude.md` 
 
 #### 1. 项目简介 (Project Overview)
 - 项目名称: 《夹缝生长 - 小产品创业实践》
