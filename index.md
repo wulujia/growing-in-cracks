@@ -21,7 +21,7 @@
 		- [结构](book/structure.md)
 		- [粗糙](book/rough.md)
 		- [留白](book/blank.md)
-		- [可运营的产品](marketingdesign.md)
+		- [可运营的产品](book/marketingdesign.md)
 	- 做了怎么推——从产品到增长，在缝隙中扎根
 		- [推广](book/marketing.md)
 		- [手把手](book/p2p.md)
@@ -58,4 +58,4 @@
 	- [工具箱](book/framework.md)
 	- [参考资料](book/books.md)
 
-- 后记：[夹缝中的小而美](crack.md)
+- 后记：[夹缝中的小而美](book/crack.md)
