@@ -2,7 +2,7 @@
 
 ## 割裂的代价
 
-- 点出常见误区：产品做完了再想怎么推广
+- 常见误区：产品做完了再想怎么推广
 - 结果：产品做得再好，传播成本极高
 - 核心观点：可运营性是产品能力的一部分，不是后置的
 
@@ -24,12 +24,18 @@
 
 可以对比其他产品（Loom、Figma 的分享、GitHub 的 Profile）
 
+ChatGPT 的每个 Chat 也都可以传播。
+
+Scratch 的 remix 功能的传播价值。
+
 ## Product Led SEO：让产品创造流量
 
 - 传统 SEO：写文章做内容
 - Product Led SEO：产品本身就是 SEO 的内容源
 - 案例：Notion 的公开页面、小红书的笔记、知乎的回答
 - 用户生产内容 = 产品获得 SEO 价值
+
+团队在做 Slax Reader 的过程中的思考：Slax Reader 是否能做 Product Led SEO？应该怎么做？有什么利弊？
 
 ## 杠杆：为什么小团队更需要这样思考
 

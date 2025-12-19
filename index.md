@@ -23,25 +23,25 @@
 		- [留白](book/blank.md)
 		- [可运营的产品](book/marketingdesign.md)
 	- 做了怎么推——从产品到增长，在缝隙中扎根
-		- [推广](book/marketing.md)
 		- [手把手](book/p2p.md)
-		- [用户社区](book/community.md)
 		- [内容输出](book/content.md)
+		- [用户社区](book/community.md)
+		- [现场](book/scene.md)
+		- [市场推广](book/marketing.md)
 		- [收入](book/monetize.md)
 		- [品牌](book/brand.md)
-		- [现场](book/scene.md)
 	- 是不是需要调整方向——在夹缝中挣扎求生
-		- [留存率](book/retention.md)
+		- [留存](book/retention.md)
 		- [非线性发展](book/nonlinear.md)
 		- [连点成线](book/next.md)
 		- [转型](book/pivot.md)
 		- [长期](book/long-term.md)
-		- [怎么看待失败](book/fail.md)
+		- [失败](book/fail.md)
 
 - 第四部分：产品之外——拓宽你的缝隙
 	- 经营问题
 		- [计算子弹](book/bullet.md)
-		- [怎么出海](book/global.md)
+		- [怎么全球化](book/global.md)
 		- [风险控制](book/riskcontrol.md)
 		- [公司成长](book/company.md)
 	- 组织问题
@@ -49,9 +49,7 @@
 		- [价值观与工作规范](book/value.md)
 		- [工作与生活平衡](book/worklifebalance.md)
 		- [远程办公](book/remote.md)
-	- AI 带来了的变化
-		- [特种部队](book/spcialforces.md) 
-		- [速度](book/speed.md)
+	  - [AI 带来了的变化](book/ai.md)
 
 - 附录：参考资料
 	- [好产品](book/goodproduct.md)
