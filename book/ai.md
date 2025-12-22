@@ -22,3 +22,5 @@
 选方向的时候，不要盯着纯 AI，先找一个能吸引部分用户的地方站住，配合 AI
 
 如果能有 AI 得不到的数据，可能是个好起点
+
+lovable 每个月要有可以在市场宣传推动的功能：https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna
