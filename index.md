@@ -31,6 +31,7 @@
 		- [收入](book/monetize.md)
 		- [品牌](book/brand.md)
 	- 是不是需要调整方向——在夹缝中挣扎求生
+    - [数据](book/data.md)
 		- [留存](book/retention.md)
 		- [非线性发展](book/nonlinear.md)
 		- [连点成线](book/next.md)
@@ -44,6 +45,7 @@
 		- [怎么全球化](book/global.md)
 		- [风险控制](book/riskcontrol.md)
 		- [公司成长](book/company.md)
+    - [投资](book/vc.md)
 	- 组织问题
 		- [怎么提高标准](book/raise.md)
 		- [价值观与工作规范](book/value.md)
