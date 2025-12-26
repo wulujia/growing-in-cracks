@@ -44,7 +44,7 @@
 		- [计算子弹](book/bullet.md)
 		- [怎么全球化](book/global.md)
 		- [风险控制](book/riskcontrol.md)
-		- [公司成长](book/company.md)
+    - [公司成长](book/company.md)
     - [投资](book/vc.md)
 	- 组织问题
 		- [怎么提高标准](book/raise.md)
