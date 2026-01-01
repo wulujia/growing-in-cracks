@@ -34,7 +34,6 @@
     - [数据](book/data.md)
     - [留存](book/retention.md)
     - [非线性发展](book/nonlinear.md)
-    - [连点成线](book/next.md)
     - [转型](book/pivot.md)
     - [长期](book/long-term.md)
     - [失败](book/fail.md)
