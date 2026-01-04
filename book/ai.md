@@ -24,3 +24,5 @@
 如果能有 AI 得不到的数据，可能是个好起点
 
 lovable 每个月要有可以在市场宣传推动的功能：https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna
+
+## ai native 的组织形态应该是怎样的
