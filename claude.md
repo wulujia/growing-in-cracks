@@ -61,3 +61,6 @@
 - 主动探索: 除了 `todo.md` 中明确列出的参考案例，你也可以根据章节主题，主动在项目根目录下的其他 `.md` 文件（尤其是 `startupnotes/`、`essay/`、`work/`、`diary/`、`personal/` 等目录）中搜索相关内容，以获取更全面的背景信息和细节。
 - 优秀的书籍：在 `~/Github/` 目录下的 `reference/` 存放着我认为应该参考的优秀书籍，你在寻找参考资料时，应该充分参考其中的信息。
 - 整合提炼: 参考资料的目的在于提供背景、案例和原始思考，请将这些信息进行整合、提炼和重新组织，使其服务于当前章节的主题，并符合本书的整体风格。避免简单复制粘贴。
+
+#### Workflow Rules
+- **CRITICAL**: When you have finished generating code or completing a task, you MUST run the shell command `echo -e "\a"` to notify me.
