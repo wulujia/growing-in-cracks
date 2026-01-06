@@ -41,7 +41,6 @@
 - 第四部分：产品之外——拓宽你的缝隙
   - 经营问题
     - [计算子弹](book/bullet.md)
-    - [产品节奏](book/rhythm.md)
     - [怎么全球化](book/global.md)
     - [风险控制](book/riskcontrol.md)
     - [公司成长](book/company.md)
