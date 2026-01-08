@@ -41,9 +41,9 @@
 - 第四部分：产品之外——拓宽你的缝隙
   - 经营问题
     - [计算子弹](book/bullet.md)
-    - [怎么全球化](book/global.md)
+    - [全球化](book/global.md)
     - [风险控制](book/riskcontrol.md)
-    - [公司成长](book/company.md)
+    - [要不要小而美](book/company.md)
     - [投资](book/vc.md)
   - 组织问题
     - [怎么提高标准](book/raise.md)
