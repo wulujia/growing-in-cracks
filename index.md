@@ -46,7 +46,7 @@
     - [要不要全球化](book/global.md)
     - [要不要小而美](book/company.md)
   - 组织问题
-    - [怎么提高标准](book/raise.md)
+    - [怎么提高人才密度](book/raise.md)
     - [价值观与工作规范](book/value.md)
     - [工作与生活平衡](book/worklifebalance.md)
     - [远程办公](book/remote.md)
