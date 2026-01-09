@@ -43,8 +43,8 @@
     - [计算子弹](book/bullet.md)
     - [风险控制](book/riskcontrol.md)
     - [投资](book/vc.md)
-    - [要不要小而美](book/company.md)
     - [要不要全球化](book/global.md)
+    - [要不要小而美](book/company.md)
   - 组织问题
     - [怎么提高标准](book/raise.md)
     - [价值观与工作规范](book/value.md)
