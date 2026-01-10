@@ -47,7 +47,7 @@
     - [要不要小而美](book/company.md)
   - 组织问题
     - [怎么提高人才密度](book/raise.md)
-    - [价值观与工作规范](book/value.md)
+    - [价值观](book/value.md)
     - [工作与生活平衡](book/worklifebalance.md)
     - [远程办公](book/remote.md)
     - [AI 带来了的变化](book/ai.md)
