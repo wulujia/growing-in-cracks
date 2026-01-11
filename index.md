@@ -52,9 +52,4 @@
     - [远程办公](book/remote.md)
     - [AI 带来了的变化](book/ai.md)
 
-- 附录：参考资料
-  - [好产品](book/goodproduct.md)
-  - [工具箱](book/framework.md)
-  - [参考资料](book/books.md)
-
 - 后记：[夹缝中的小而美](book/crack.md)
