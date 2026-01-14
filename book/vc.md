@@ -1,5 +1,13 @@
 # 投资
 
+> He who pays the piper calls the tune.
+> 谁付钱，谁说了算。
+> —— 英国谚语
+
+> If you don't design your own life plan, chances are you'll fall into someone else's plan.
+> 如果你不设计自己的人生计划，你很可能会落入别人的计划。
+> —— Jim Rohn
+
 ## 要不要融资
 
 这是小产品创业者首先要想清楚的问题。

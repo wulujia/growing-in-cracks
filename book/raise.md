@@ -1,5 +1,17 @@
 # 人才密度
 
+> First who, then what.
+> 先找对人，再做对事。
+> —— Jim Collins,《从优秀到卓越》
+
+> A's hire A's. B's hire C's.
+> A 类人才招 A 类人才，B 类人才招 C 类人才。
+> —— 硅谷谚语
+
+> Train people well enough so they can leave, treat them well enough so they don't want to.
+> 培养员工，让他们有能力离开；善待员工，让他们不想离开。
+> —— Richard Branson
+
 ## 人才密度的逻辑
 
 2023 年某个周末，阿朱在机场候机，准备休年假。她接到客户电话，两位星主申请企业认证卡在最后环节。她赶紧拉了个小群，景开去查自动脚本，国杰去查数据，郭郭提供思路，罗丰协助操作。飞机起飞前，问题处理好了。

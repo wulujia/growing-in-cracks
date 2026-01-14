@@ -1,6 +1,14 @@
 # 要不要小而美
 
-## 我曾经想做大
+> Do one thing and do it well.
+> 做一件事，做好它。
+> —— Unix 哲学
+
+> Slow and steady wins the race.
+> 慢而稳者胜。
+> —— 伊索寓言
+
+## 曾经想做大
 
 我并不是一开始就想做小而美。恰恰相反，我曾经很想做大。
 

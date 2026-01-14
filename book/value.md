@@ -1,5 +1,13 @@
 # 价值观与规则
 
+> Core values are only core values if you're willing to be punished for holding them.
+> 核心价值观只有在你愿意为坚守它而付出代价时，才是真正的核心价值观。
+> —— Patrick Lencioni
+
+> It's not hard to make decisions when you know what your values are.
+> 当你清楚自己的价值观，做决策就不难了。
+> —— Roy Disney
+
 ## 二十年，我们做对了什么
 
 公司创办于 2005 年，二十多年了。

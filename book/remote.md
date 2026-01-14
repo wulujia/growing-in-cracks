@@ -1,5 +1,13 @@
 # 远程办公
 
+> Creativity comes from spontaneous meetings, from random discussions.
+> 创意来自不期而遇，来自随机的讨论。
+> —— Steve Jobs
+
+> Work is something you do, not a place you go.
+> 工作是你做的事，不是你去的地方。
+> —— Jason Fried, 37signals
+
 ## 饭桌上的创意
 
 微信早期非常有创造力。

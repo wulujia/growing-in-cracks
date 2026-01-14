@@ -1,5 +1,13 @@
 # 工作与生活平衡
 
+> You can do anything, but not everything.
+> 你可以做任何事，但不能做所有事。
+> —— David Allen
+
+> It is not enough to be busy. So are the ants. The question is: What are we busy about?
+> 忙碌是不够的，蚂蚁也很忙。问题是：我们在忙什么？
+> —— Henry David Thoreau
+
 ## 卷的诱惑
 
 这一年多，我一直在"更努力"和"工作与生活平衡"两者之间摇摆。

@@ -1,5 +1,17 @@
 # 风险控制
 
+> An ounce of prevention is worth a pound of cure.
+> 一盎司的预防胜过一磅的治疗。
+> —— Benjamin Franklin
+
+> The best time to repair the roof is when the sun is shining.
+> 修屋顶的最好时机是阳光灿烂时。
+> —— John F. Kennedy
+
+> Risk comes from not knowing what you're doing.
+> 风险来自于不知道自己在做什么。
+> —— Warren Buffett
+
 ## 引言
 
 风控是典型的“看不见的复杂”——用复杂的系统来保证前端的简单和安全。

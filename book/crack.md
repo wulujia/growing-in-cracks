@@ -1,5 +1,12 @@
 # 夹缝中的小而美
 
+> Live the questions now. Perhaps you will then gradually, without noticing it, live along some distant day into the answer.
+> 活在问题里。也许有一天，你会不知不觉地活进答案中。
+> —— Rainer Maria Rilke
+
+> 大处着眼，小处着手。
+> —— 曾国藩
+
 写完这本书的时候，知识星球发展平稳，有厉害的同事们在迭代产品。我和小伙伴们开始了一些新的尝试——希望做出一款新产品，两条腿走路，让公司运行更平稳。也希望做些新实验，做些有趣有用的小工具。
 
 什么是小而美的产品，前段时间的讨论里，Tony 认为可以是：

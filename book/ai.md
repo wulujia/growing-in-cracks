@@ -1,5 +1,17 @@
 # AI 带来的变化
 
+> The future is already here — it's just not evenly distributed.
+> 未来已经到来，只是分布不均。
+> —— William Gibson
+
+> Some people worry that artificial intelligence will make us feel inferior, but then, anybody in his right mind should have an inferiority complex every time he looks at a flower.
+> 有人担心人工智能会让我们感到自卑，但说实话，任何头脑正常的人每次看到一朵花时都应该感到自卑。
+> —— Alan Kay
+
+> These are the stupidest the models will ever be.
+> 现在的模型是有史以来最蠢的。
+> —— Sam Altman
+
 ## 个体：能力边界的扩展
 
 AI 让一个人能做过去一个团队的事。

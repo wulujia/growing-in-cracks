@@ -1,5 +1,13 @@
 # 计算子弹
 
+> Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.
+> 第一条：永远不要亏钱。第二条：永远不要忘记第一条。
+> —— Warren Buffett
+
+> By failing to prepare, you are preparing to fail.
+> 不做准备，就是准备失败。
+> —— Benjamin Franklin
+
 2018 年的某一天，我打开公司账户，看了一眼余额：930 万。
 
 按当时的支出速度，这笔钱撑不到一年。四年前拿到 3000 万投资时，觉得弹药充足，可以放开手脚干。没想到几个产品试下来，钱烧得比预想快得多。
