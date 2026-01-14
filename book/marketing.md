@@ -1,5 +1,13 @@
 # 市场推广
 
+> Half the money I spend on advertising is wasted; the trouble is I don't know which half.
+> 我花在广告上的钱有一半是浪费的，问题是我不知道是哪一半。
+> —— 约翰·沃纳梅克
+>
+> The main thing is to keep the main thing the main thing.
+> 最重要的事是让最重要的事保持最重要。
+> —— 史蒂芬·柯维
+
 小团队做推广，最常见的问题是：什么都想试，什么都没试透。
 
 SEO 听说有用，做了一点。红人营销听说见效快，联系了几个。私域流量很火，建了几个群。付费投放试了一下，烧了点钱。结果哪个都没做出效果，资源分散，精力耗尽。

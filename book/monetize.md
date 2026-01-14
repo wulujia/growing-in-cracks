@@ -1,5 +1,13 @@
 # 收入
 
+> Revenue solves all known problems.
+> 收入能解决所有已知的问题。
+> —— Eric Schmidt
+
+> Happiness is a positive cash flow.
+> 幸福就是正向现金流。
+> —— Fred Adler
+
 小公司、小产品，先别想着做平台。
 
 做平台需要两边撮合，需要规模效应，需要烧钱换增长。这条路太长了，大多数小团队走不到终点。

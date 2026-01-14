@@ -1,5 +1,13 @@
 # 手把手地教会第一批用户
 
+> There are no facts inside the building, so get outside.
+> 办公室里没有事实，所以要走出去。
+> —— 史蒂夫·布兰克
+>
+> Build, Measure, Learn.
+> 构建、测量、学习。
+> —— 埃里克·莱斯
+
 2010 年某个傍晚，旧金山一场创业聚会上，Patrick Collison 正在和一位开发者聊天。对方抱怨在线支付太麻烦，接入 PayPal 要填几十页表格，等上好几天。
 
 Patrick 问："你想试试我们正在做的东西吗？"

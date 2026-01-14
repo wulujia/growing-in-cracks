@@ -1,5 +1,13 @@
 # 产品留存率
 
+> It costs five times as much to attract a new customer than to keep an existing one.
+> 获取一个新客户的成本是留住一个老客户的五倍。
+> —— 商业格言
+
+> Compound interest is like a snowball of sticky snow. The trick is to have a very long hill.
+> 复利就像一个黏雪球。关键是找到一条足够长的坡。
+> —— Warren Buffett
+
 村上春树在《当我谈跑步时，我谈些什么》里写到：
 
 > 开酒吧时我也遵循同样的原则。酒吧来了很多客人，如果十个人里有一个喜欢这里，说下次还会再来，那就够了。十个人里有一个成为回头客，生意就能维持下去。换句话说，另外九个人不喜欢我的酒吧，也无所谓。

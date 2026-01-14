@@ -1,5 +1,13 @@
 # 失败
 
+> Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.
+> 曾经尝试。曾经失败。没关系。再试一次。再失败。失败得更好。
+> —— Samuel Beckett
+
+> Success is not final, failure is not fatal: it is the courage to continue that counts.
+> 成功不是终点，失败不是致命的：重要的是继续前进的勇气。
+> —— Winston Churchill
+
 ## 失败是常态
 
 约 90% 的初创企业最终会失败。10% 在第一年夭折，70% 在第二至第五年间倒下。

@@ -1,5 +1,13 @@
 # 长期
 
+> A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.
+> 有限游戏以取胜为目的，无限游戏以延续游戏为目的。
+> —— James P. Carse
+
+> I very frequently get the question: "What's going to change in the next 10 years?" I almost never get the question: "What's not going to change in the next 10 years?" And I submit to you that that second question is actually the more important of the two.
+> 我经常被问"未来十年什么会变"，却几乎没人问"未来十年什么不会变"。我认为第二个问题更重要。
+> —— Jeff Bezos
+
 2015 年，我们开始做知识星球。当时的计划是：三个月出第一版。没有想过七年。甚至不确定三个月后还有没有这个产品。
 
 十年后回头看，我们确实还在做这件事。但这不是因为当初有什么长期规划。而是每次想放弃的时候，我都问自己：这件事还值得做吗？答案总是：值得。

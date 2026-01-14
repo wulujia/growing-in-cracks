@@ -1,5 +1,13 @@
 # 用户社区
 
+> Human beings can't help it: We need to belong.
+> 这是人的本性：我们需要归属。
+> —— 赛斯·高汀
+>
+> The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.
+> 两个人格的相遇就像两种化学物质的接触：如果发生反应，两者都会改变。
+> —— 卡尔·荣格
+
 ## 为什么要做社区
 
 ### 社区的本质

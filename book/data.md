@@ -1,5 +1,13 @@
 # 数据
 
+> What gets measured gets managed.
+> 能被测量的才能被管理。
+> —— Peter Drucker
+
+> Not everything that counts can be counted, and not everything that can be counted counts.
+> 不是所有重要的东西都能被计算，也不是所有能被计算的东西都重要。
+> —— William Bruce Cameron
+
 ## 数据的价值在于指导行动
 
 caoz 批评过我很多次：你对数据无感。
