@@ -15,14 +15,14 @@
   - [产品金字塔](book/pyramid.md)
 
 - 第三部分：具体执行
-  - 怎么做——从创意到产品，找准缝隙
+  - 做产品——从创意到产品，找准缝隙
     - [提案](book/pitch.md)
     - [不一样](book/difference.md)
     - [结构](book/structure.md)
     - [粗糙](book/rough.md)
     - [留白](book/blank.md)
     - [可运营的产品](book/marketingdesign.md)
-  - 做了怎么推——从产品到增长，在缝隙中扎根
+  - 做增长——从产品到增长，在缝隙中扎根
     - [手把手](book/p2p.md)
     - [内容输出](book/content.md)
     - [用户社区](book/community.md)
@@ -30,7 +30,7 @@
     - [市场推广](book/marketing.md)
     - [收入](book/monetize.md)
     - [品牌](book/brand.md)
-  - 是不是需要调整方向——在夹缝中挣扎求生
+  - 调方向——在夹缝中挣扎求生
     - [数据](book/data.md)
     - [留存](book/retention.md)
     - [非线性发展](book/nonlinear.md)
@@ -43,13 +43,13 @@
     - [计算子弹](book/bullet.md)
     - [风险控制](book/riskcontrol.md)
     - [投资](book/vc.md)
-    - [要不要全球化](book/global.md)
-    - [要不要小而美](book/company.md)
+    - [全球化](book/global.md)
+    - [小而美](book/company.md)
   - 组织问题
-    - [怎么提高人才密度](book/raise.md)
+    - [人才密度](book/raise.md)
     - [价值观](book/value.md)
     - [工作与生活平衡](book/worklifebalance.md)
     - [远程办公](book/remote.md)
-    - [AI 带来了的变化](book/ai.md)
+    - [AI 带来的变化](book/ai.md)
 
 - 后记：[夹缝中的小而美](book/crack.md)

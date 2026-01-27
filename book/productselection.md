@@ -76,6 +76,8 @@ Lean Canvas 更适合小步快跑、快速迭代的团队，因为它聚焦于�
 
 ### Paul Graham 的观点
 
+Paul Graham 是 Y Combinator 的创始人，YC 是硅谷最有影响力的创业孵化器，孵化过 Dropbox、Airbnb、Stripe 等公司。他的文章对创业者影响很大。
+
 Paul Graham 在他的文章 https://paulgraham.com/newthings.html 中写到：
 
 I like to find (a) simple solutions (b) to overlooked problems (c) that actually need to be solved, and (d) deliver them as informally as possible, (e) starting with a very crude version 1, then (f) iterating rapidly.
@@ -204,9 +206,9 @@ Dropbox 不是第一个网盘，但它用了完全不同的方式：文件夹同
 
 ### 对 MVP 理解错误
 
-以为 MVP 一定要做完整软件。
+MVP 是 Minimum Viable Product 的缩写，中文常译作"最小可行产品"，指用最小成本做出能验证核心假设的东西。
 
-其实不是。MVP 可以是视频（Dropbox 用一个演示视频验证了想法）。MVP 可以是微信群（拼多多早期可以用微信群验证拼团）。MVP 可以只验证一个关键假设。
+很多人以为 MVP 一定要做完整软件。其实不是。MVP 可以是视频（Dropbox 用一个演示视频验证了想法）。MVP 可以是微信群（拼多多早期可以用微信群验证拼团）。MVP 可以只验证一个关键假设。
 
 越小，越快，越准确。
 
