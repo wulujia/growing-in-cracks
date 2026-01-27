@@ -114,7 +114,7 @@ A 影响 B，B 又反过来影响 A。这种循环有两种：
 
 ## 知识星球的系统循环图
 
-![systemthinking-03](img/systemthinking-03.jpeg)
+![systemthinking-03](img/systemthinking-03.png)
 
 这是知识星球的增强环。四个环节首尾相连，互相推动。
 
