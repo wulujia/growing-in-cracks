@@ -157,7 +157,11 @@ Duolingo 的增长负责人 Jorge Mazal 意识到：靠猜是不行的。他需�
 - Dormant users（休眠用户）
 - Churned users（已流失用户）
 
-然后做了一个敏感性分析：如果每个桶的转化率提高 1%，对 DAU 的影响是多少。
+![Duolingo 日活跃用户模型](img/systemthinking-04.png)
+
+图中的缩写：DAU（日活跃用户）、WAU（周活跃用户）、MAU（月活跃用户）。CURR、NURR、RURR、SURR 分别是当前用户、新用户、回流用户、召回用户的留存率。iWAURR 和 iMAURR 是周活跃和月活跃用户的流失风险率。
+
+然后做了一个敏感性分析：如果每个桶的转化率提高 1%，对 DAU（日活跃用户数）的影响是多少。
 
 结果让所有人震惊。
 
@@ -208,3 +212,9 @@ Jorge 把这个发现告诉了 CEO Luis。Luis 立刻决定：组建一个新团
 重要的决策，留下记录。写下你的判断、你的推理、你看到的风险。6 个月后回看，你会发现：有些决策是对的，有些是错的，但你能清楚地看到自己是怎么想的。这是进步的起点。
 
 就算很小的决策，也有可能在系统里引发连锁反应，系统思考让你看清这些连接，而决策卡让你不会遗漏关键步骤。
+
+---
+
+本章链接：
+
+1. Jorge Mazal, How Duolingo reignited user growth: https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth
