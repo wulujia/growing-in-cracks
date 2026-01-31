@@ -294,9 +294,11 @@ Tony 的第一反应是：挺好的啊，没有急剧下跌，说明这一关站
 
 留存的本质，不是技巧，是价值。
 
-参考链接：
+---
 
-- https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29
-- https://caseyaccidental.com/what-is-good-retention
-- https://www.lennysnewsletter.com/p/how-to-increase-your-products-retention
-- https://www.lennysnewsletter.com/p/how-to-measure-cohort-retention
+本章链接：
+
+1. Lenny Rachitsky, What is good retention: https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29
+2. Casey Winters, What is good retention: https://caseyaccidental.com/what-is-good-retention
+3. Lenny Rachitsky, How to increase your product's retention: https://www.lennysnewsletter.com/p/how-to-increase-your-products-retention
+4. Lenny Rachitsky, How to measure cohort retention: https://www.lennysnewsletter.com/p/how-to-measure-cohort-retention
