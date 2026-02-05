@@ -2,6 +2,7 @@
 
 > Luck is what happens when preparation meets opportunity.
 > 运气，就是准备遇到了机会。
+>
 > —— Seneca
 
 有一年春节，一个英语老师给我发了个红包，写着“新年快乐，谢谢你”。我不认识她，微信上加了几千位知识星球用户，没敢领。
