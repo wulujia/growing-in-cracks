@@ -8,7 +8,7 @@
 
 ## 准备：建立你的创意系统
 
-**生活在未来**
+### 生活在未来
 
 Paul Graham 说过一句话：Live in the future, then build what's missing. 先活在未来，再造出缺失的东西。
 
@@ -20,7 +20,7 @@ Paul Graham 说过一句话：Live in the future, then build what's missing. 先
 
 你不是“看”未来，是“活”在未来。在这个过程中，你自然会注意到缺失的东西。前沿用户的痛点，往往还没有好的解决方案。
 
-**保持长期记录**
+### 保持长期记录
 
 创意不是空中楼阁。需要一个地方存储你看到的、想到的。
 
@@ -42,7 +42,7 @@ Paul Graham 说过一句话：Live in the future, then build what's missing. 先
 
 长期积累下来，这些记录会成为你独特的资产。别人看到的是一个现象，你看到的是一条线索，因为你记录了前因后果。
 
-**模仿好东西**
+### 模仿好东西
 
 好创意从哪里来。很多时候，是从模仿开始的。
 
@@ -76,7 +76,7 @@ Paul Graham 说过一句话：Live in the future, then build what's missing. 先
 
 所以在抄的过程中，要找到自己的灵魂。
 
-**打破习惯**
+### 打破习惯
 
 对世界保持好奇，对新事物保持敏感，创意自然会来找你。
 
@@ -102,7 +102,7 @@ Paul Graham 说：Make yourself perfect and then just paint naturally。让自�
 
 ## 涌现：创意如何发生
 
-**注意到问题**
+### 注意到问题
 
 创意不是想出来的，是注意到的。
 
@@ -134,7 +134,7 @@ Paul Graham 说：Make yourself perfect and then just paint naturally。让自�
 
 要关掉这些过滤器。对现状保持不满，对问题保持敏感。创意就藏在这些你注意到的问题里。
 
-**连接与涌现**
+### 连接与涌现
 
 赖声川在描述对《如梦之梦》创意的过程时说：
 
