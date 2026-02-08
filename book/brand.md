@@ -2,10 +2,12 @@
 
 > Your brand is what other people say about you when you're not in the room.
 > 你的品牌，是别人在你不在场时对你的评价。
+>
 > —— Jeff Bezos
 
 > Today, in the Age of the Individual, you have to be your own brand.
 > 在个人时代，你必须成为自己的品牌。
+>
 > —— Tom Peters
 
 2024 年，InVision 宣布关闭。
