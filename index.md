@@ -52,4 +52,7 @@
     - [远程办公](book/remote.md)
     - [AI 带来的变化](book/ai.md)
 
+- 第五部分：同路人
+  - [flomo: 从缝隙中生长](book/flomo.md)
+
 - 后记：[夹缝中的小而美](book/crack.md)
