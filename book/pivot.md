@@ -2,10 +2,12 @@
 
 > When the facts change, I change my mind. What do you do, sir?
 > 当事实改变时，我改变想法。先生，你呢？
+>
 > —— John Maynard Keynes
 
 > Persevere on vision, but be flexible on details.
 > 坚持愿景，但在细节上保持灵活。
+>
 > —— Eric Ries
 
 ## 我的 Pivot 经历

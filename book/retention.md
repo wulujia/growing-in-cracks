@@ -2,10 +2,12 @@
 
 > It costs five times as much to attract a new customer than to keep an existing one.
 > 获取一个新客户的成本是留住一个老客户的五倍。
+>
 > —— 商业格言
 
 > Compound interest is like a snowball of sticky snow. The trick is to have a very long hill.
 > 复利就像一个黏雪球。关键是找到一条足够长的坡。
+>
 > —— Warren Buffett
 
 留存是判断产品方向对不对的核心信号。留存好，说明产品解决了真问题，用户愿意留下来。留存差，说明产品-市场契合度不行，可能需要调方向。

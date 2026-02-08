@@ -2,10 +2,12 @@
 
 > How did you go bankrupt? Two ways. Gradually, then suddenly.
 > 你是怎么破产的？两种方式。慢慢地，然后突然地。
+>
 > —— Ernest Hemingway,《太阳照常升起》
 
 > Luck is what happens when preparation meets opportunity.
 > 运气是准备遇上机会。
+>
 > —— Seneca
 
 体验了攀岩，在下面看很简单，真上去了，经常发现抓不到下一个点，或者体力不支，掉下来。
