@@ -1,3 +1,7 @@
+方向错了，怎么掉头？
+
+---
+
 # 转型
 
 > When the facts change, I change my mind. What do you do, sir?

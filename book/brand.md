@@ -1,3 +1,7 @@
+小产品需要品牌吗？
+
+---
+
 # 品牌
 
 > Your brand is what other people say about you when you're not in the room.

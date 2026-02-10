@@ -1,3 +1,7 @@
+一群用户和一个社区，差别在哪？
+
+---
+
 # 用户社区
 
 > Human beings can't help it: We need to belong.

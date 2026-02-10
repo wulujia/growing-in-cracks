@@ -1,3 +1,7 @@
+小产品值得做十年吗？
+
+---
+
 # 长期
 
 > A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.

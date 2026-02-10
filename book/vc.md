@@ -1,3 +1,7 @@
+小产品要不要拿投资人的钱？
+
+---
+
 # 融资
 
 > He who pays the piper calls the tune.

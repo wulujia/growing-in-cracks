@@ -1,3 +1,7 @@
+公司一定要做大吗？
+
+---
+
 # 小而美
 
 > Do one thing and do it well.

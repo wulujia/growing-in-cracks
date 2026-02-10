@@ -1,3 +1,7 @@
+最坏的情况发生了，你扛得住吗？
+
+---
+
 # 风险控制
 
 > An ounce of prevention is worth a pound of cure.

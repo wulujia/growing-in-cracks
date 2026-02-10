@@ -1,3 +1,7 @@
+该信数据还是信直觉？
+
+---
+
 # 数据
 
 > What gets measured gets managed.

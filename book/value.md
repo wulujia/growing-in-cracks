@@ -1,3 +1,7 @@
+小公司需要价值观吗？
+
+---
+
 # 价值观与规则
 
 > Core values are only core values if you're willing to be punished for holding them.

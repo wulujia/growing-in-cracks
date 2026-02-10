@@ -1,3 +1,7 @@
+该不该一上来就收钱？
+
+---
+
 # 收入
 
 > Revenue solves all known problems.

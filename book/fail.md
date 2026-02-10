@@ -1,3 +1,7 @@
+失败了，然后呢？
+
+---
+
 # 失败
 
 > Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.

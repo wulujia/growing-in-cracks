@@ -1,3 +1,7 @@
+努力了很久还没起色，要不要放弃？
+
+---
+
 # 非线性发展
 
 > How did you go bankrupt? Two ways. Gradually, then suddenly.

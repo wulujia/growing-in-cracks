@@ -1,3 +1,7 @@
+前 100 个用户怎么来？
+
+---
+
 # 手把手地教会第一批用户
 
 > There are no facts inside the building, so get outside.

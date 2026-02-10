@@ -1,3 +1,7 @@
+该不该全球化？
+
+---
+
 # 怎么全球化
 
 > Think globally, act locally.
