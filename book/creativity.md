@@ -1,3 +1,7 @@
+好的产品想法，是怎么冒出来的？
+
+---
+
 # 创意的来源
 
 > You can't connect the dots looking forward; you can only connect them looking backwards.

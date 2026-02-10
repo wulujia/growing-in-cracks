@@ -1,3 +1,7 @@
+什么时候开始做，才不算太早或太晚？
+
+---
+
 # 时机
 
 > Luck is what happens when preparation meets opportunity.
