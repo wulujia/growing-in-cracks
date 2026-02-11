@@ -170,7 +170,7 @@ def build_html(book_title, chapters):
             )
             seen_sections.clear()
 
-        # 子分类标题
+        # 子分类标题（独立一页，大字居中）
         if ch["section"] and ch["section"] not in seen_sections:
             seen_sections.add(ch["section"])
             section_id = f"section-{len(seen_sections)}-{part_counter}"
@@ -182,7 +182,9 @@ def build_html(book_title, chapters):
                     "children": [],
                 })
             body_parts.append(
-                f'<h2 class="section-title" id="{section_id}">{ch["section"]}</h2>'
+                f'<div class="section-page" id="{section_id}">'
+                f'<p class="section-page-title">{ch["section"]}</p>'
+                f'</div>'
             )
 
         # 提取引导问题
@@ -320,10 +322,7 @@ body {
 /* 封面 */
 .cover-page {
     page-break-after: always;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    padding-top: 35vh;
     text-align: center;
 }
 
@@ -332,6 +331,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.1em;
     color: #222;
+    border: none;
 }
 
 /* 目录页 */
@@ -394,10 +394,7 @@ body {
 .part-page {
     page-break-before: always;
     page-break-after: always;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
+    padding-top: 35vh;
     text-align: center;
 }
 
@@ -408,14 +405,26 @@ body {
     border: none;
 }
 
+/* 子分类标题页（如"做产品"、"做增长"等） */
+.section-page {
+    page-break-before: always;
+    page-break-after: always;
+    padding-top: 35vh;
+    text-align: center;
+}
+
+.section-page-title {
+    font-size: 20pt;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+}
+
 /* 问题页 */
 .question-page {
     page-break-before: always;
     page-break-after: always;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
+    padding-top: 35vh;
     text-align: center;
 }
 
@@ -423,8 +432,8 @@ body {
     font-size: 16pt;
     color: #555;
     font-style: italic;
-    max-width: 70%;
     line-height: 2;
+    text-align: center;
 }
 
 /* 章节 */
@@ -448,15 +457,6 @@ h2 {
     margin-top: 1.5em;
     margin-bottom: 0.5em;
     color: #333;
-}
-
-.section-title {
-    page-break-before: avoid;
-    font-size: 13pt;
-    color: #555;
-    border-left: 3px solid #999;
-    padding-left: 0.5em;
-    margin-top: 0;
 }
 
 h3 {
