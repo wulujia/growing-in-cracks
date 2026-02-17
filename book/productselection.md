@@ -5,6 +5,7 @@
 # 产品评估
 
 > If it's not a hell yes, it's a no.
+> 如果不是"太棒了，必须做"，那就是不做。
 >
 > —— Derek Sivers
 
