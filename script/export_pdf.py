@@ -125,6 +125,20 @@ def extract_question(content, file_path):
     return None, content
 
 
+def mark_epigraphs(html_content):
+    """将紧跟在 <h1> 后面的连续 <blockquote> 标记为 epigraph。"""
+    return re.sub(
+        r'(</h1>\s*)((?:<blockquote>\s*.*?</blockquote>\s*)+)',
+        lambda m: m.group(1) + re.sub(
+            r'<blockquote>',
+            '<blockquote class="epigraph">',
+            m.group(2),
+        ),
+        html_content,
+        flags=re.DOTALL,
+    )
+
+
 def fix_image_paths(html_content, base_dir):
     """将图片的相对路径转为绝对路径（file:// URI）。"""
     def replace_src(match):
@@ -194,6 +208,7 @@ def build_html(book_title, chapters):
         chapter_id = os.path.splitext(os.path.basename(ch["file"]))[0]
         html_content = markdown.markdown(content, extensions=md_extensions)
         html_content = fix_image_paths(html_content, BOOK_DIR)
+        html_content = mark_epigraphs(html_content)
 
         # 插入问题页（独立一页，显示在章节正文之前）
         if question:
@@ -484,6 +499,18 @@ blockquote {
 
 blockquote p {
     margin: 0.3em 0;
+}
+
+/* 章节开头引言 */
+blockquote.epigraph {
+    border-left: none;
+    background: #f7f3ee;
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    margin: 1.2em 0 1.5em 0;
+    color: #555;
+    font-style: italic;
+    line-height: 2;
 }
 
 /* 水平线 */
