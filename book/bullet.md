@@ -6,10 +6,12 @@
 
 > Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.
 > 第一条：永远不要亏钱。第二条：永远不要忘记第一条。
+>
 > —— Warren Buffett
 
 > By failing to prepare, you are preparing to fail.
 > 不做准备，就是准备失败。
+>
 > —— Benjamin Franklin
 
 ---

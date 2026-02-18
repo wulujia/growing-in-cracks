@@ -5,8 +5,9 @@
 # 创意的来源
 
 > You can't connect the dots looking forward; you can only connect them looking backwards.
+> 你无法预先把生命中的点滴串联起来，只有在回顾时才能看到它们之间的联系。
 >
->—— Steve Jobs
+> —— Steve Jobs
 
 很多人以为创意是灵光一现。其实不是，创意发生是有系统，有规律的。
 

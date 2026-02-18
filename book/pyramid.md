@@ -4,9 +4,10 @@
 
 # 产品-市场契合度金字塔
 
-> "Fall in love with the problem, not the solution." 
+> Fall in love with the problem, not the solution.
+> 爱上问题，而不是解决方案。
 >
-> —— Uri Levine (Waze 创始人)
+> —— Uri Levine（Waze 创始人）
 
 ## 一个失败的故事
 

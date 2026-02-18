@@ -6,14 +6,17 @@
 
 > Think globally, act locally.
 > 全球思考，本地行动。
+>
 > —— 商业格言
 
 > A ship in harbor is safe, but that is not what ships are built for.
 > 船停在港口是安全的，但那不是造船的目的。
+>
 > —— John A. Shedd
 
 > When in Rome, do as the Romans do.
 > 入乡随俗。
+>
 > —— 西方谚语
 
 ## 为什么要全球化

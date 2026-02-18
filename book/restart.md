@@ -2,7 +2,7 @@
 
 > 万物皆有裂痕，那是光照进来的地方。
 >
-> — Leonard Cohen，《圣歌》
+> —— Leonard Cohen，《圣歌》
 
 ## 二十岁
 

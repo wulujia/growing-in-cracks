@@ -26,11 +26,8 @@
 
 这种从光滑到粗糙的视角转变，著名投资机构 YC 的创始人 Paul Graham 用一个词来形容：分形（Fractally）。他在 How to Do Great Work（见本章链接 1）里写：
 
->Once you've found something you're excessively interested in, the next step is to learn enough about it to get you to one of the frontiers of knowledge. Knowledge expands fractally, and from a distance its edges look smooth, but once you learn enough to get close to one, they turn out to be full of gaps.
-
-可以翻译为：
-
->一旦你发现了你非常感兴趣的东西，下一步就是充分了解它，成为该领域最前沿的探索者。知识呈分形扩展，从远处看，它的边缘很光滑，但一旦你掌握足够多的知识，足够接近与深入，就会发现它们充满了间隙。
+> Once you've found something you're excessively interested in, the next step is to learn enough about it to get you to one of the frontiers of knowledge. Knowledge expands fractally, and from a distance its edges look smooth, but once you learn enough to get close to one, they turn out to be full of gaps.
+> 一旦你发现了你非常感兴趣的东西，下一步就是充分了解它，成为该领域最前沿的探索者。知识呈分形扩展，从远处看，它的边缘很光滑，但一旦你掌握足够多的知识，足够接近与深入，就会发现它们充满了间隙。
 
 这里提到的分形（Fractally）概念，正是破局的钥匙。分形通常具备的特点有：
 
