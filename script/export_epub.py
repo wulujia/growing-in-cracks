@@ -289,6 +289,12 @@ th {
 }
 
 /* 问题页 */
+.question-page {
+    page-break-before: always;
+    page-break-after: always;
+    height: 100%;
+}
+
 .question-text {
     text-align: center;
     font-size: 1.2em;
@@ -430,7 +436,7 @@ def main():
             q_id = f"question-{chapter_id}"
             q_html = build_chapter_html(
                 "问题",
-                f'<p class="question-text">{question}</p>',
+                f'<div class="question-page"><p class="question-text">{question}</p></div>',
             )
             q_item = epub.EpubHtml(
                 title="问题",
