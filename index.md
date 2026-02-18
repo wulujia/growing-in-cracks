@@ -27,7 +27,7 @@
     - [留白](book/blank.md)
     - [可运营的产品](book/marketingdesign.md)
 
-- 做增长——从产品到增长，在缝隙中扎根
+  - 做增长——从产品到增长，在缝隙中扎根
 
     - [手把手](book/p2p.md)
     - [收入](book/monetize.md)
@@ -37,7 +37,7 @@
     - [市场推广](book/marketing.md)
     - [品牌](book/brand.md)
 
-- 调方向——在夹缝中挣扎求生
+  - 调方向——在夹缝中挣扎求生
 
     - [数据](book/data.md)
     - [留存](book/retention.md)
@@ -57,6 +57,7 @@
     - [小而美](book/company.md)
 
   - 组织问题
+
     - [人才密度](book/raise.md)
     - [价值观](book/value.md)
     - [工作与生活平衡](book/worklifebalance.md)
