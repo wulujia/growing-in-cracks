@@ -1,5 +1,6 @@
 # 夹缝生长 - 小产品创业实践
 
+- [致谢](book/acknowledgments.md)
 - 前言：[重新开始](book/restart.md)
 
 - 第一部分：夹缝生存的哲学——缝隙里的世界观
