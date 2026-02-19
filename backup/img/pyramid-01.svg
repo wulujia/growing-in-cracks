@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="uxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD97D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5C842;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="featureGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8932C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="valueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F28B50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E07840;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="needsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A9BD9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3A85C0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="customerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A85C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2B6A9E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="520" fill="#FFFFFF"/>
+
+  <!-- 第5层：用户体验 y: 40-100 -->
+  <polygon points="400,40 360,100 440,100" fill="url(#uxGrad)" />
+  <text x="400" y="82" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="16" fill="#5A5A5A" font-weight="500">用户体验</text>
+
+  <!-- 第4层：功能集合 y: 105-170 -->
+  <polygon points="360,105 313,170 487,170 440,105" fill="url(#featureGrad)" />
+  <text x="400" y="148" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#FFFFFF" font-weight="500">功能集合</text>
+
+  <!-- 第3层：价值主张 y: 175-250 -->
+  <polygon points="313,175 260,250 540,250 487,175" fill="url(#valueGrad)" />
+  <text x="400" y="223" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" fill="#FFFFFF" font-weight="500">价值主张</text>
+
+  <!-- Product-Market Fit 分隔区域 y: 255-335 -->
+  <rect x="100" y="255" width="600" height="80" fill="#FFFFFF" />
+
+  <!-- 左侧双向箭头：上下方向 -->
+  <polygon points="285,270 275,285 280,285 280,305 275,305 285,320 295,305 290,305 290,285 295,285" fill="#6B6B6B" />
+
+  <!-- 中间文字 -->
+  <text x="400" y="302" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#4A4A4A" font-weight="600">产品-市场契合</text>
+
+  <!-- 右侧双向箭头：上下方向 -->
+  <polygon points="515,270 505,285 510,285 510,305 505,305 515,320 525,305 520,305 520,285 525,285" fill="#6B6B6B" />
+
+  <!-- 第2层：未被满足的需求 y: 340-420 -->
+  <polygon points="200,340 147,420 653,420 600,340" fill="url(#needsGrad)" />
+  <text x="400" y="390" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="20" fill="#FFFFFF" font-weight="500">未被满足的需求</text>
+
+  <!-- 第1层：目标用户 y: 425-490 -->
+  <polygon points="147,425 100,490 700,490 653,425" fill="url(#customerGrad)" />
+  <text x="400" y="467" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="22" fill="#FFFFFF" font-weight="500">目标用户</text>
+
+  <!-- 左侧标签：产品 -->
+  <text x="95" y="160" text-anchor="end" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#E07840" font-weight="600">产品</text>
+
+  <!-- 左侧标签：市场 -->
+  <text x="95" y="390" text-anchor="end" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif" font-size="18" fill="#3A85C0" font-weight="600">市场</text>
+
+</svg>

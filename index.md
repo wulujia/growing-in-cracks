@@ -3,13 +3,13 @@
 - [致谢](book/acknowledgments.md)
 - 前言：[重新开始](book/restart.md)
 
-- 第一部分：夹缝生存的哲学——缝隙里的世界观
+- 第一部分：夹缝里的世界观
 
   - [分形思维](book/fractally.md)
   - [黑客思维](book/hacker.md)
   - [系统思维](book/systemthinking.md)
 
-- 第二部分：开端：找到第一个切入点——哪里有缝隙
+- 第二部分：切入点：哪里有缝隙
 
   - [创意来源](book/creativity.md)
   - [时机](book/timing.md)
@@ -17,9 +17,9 @@
   - [小落点](book/pinpoint.md)
   - [产品金字塔](book/pyramid.md)
 
-- 第三部分：具体执行
+- 第三部分：执行
 
-  - 做产品——从创意到产品，找准缝隙
+  - 做产品：找准夹缝
 
     - [提案](book/pitch.md)
     - [不一样](book/difference.md)
@@ -28,7 +28,7 @@
     - [留白](book/blank.md)
     - [可运营的产品](book/marketingdesign.md)
 
-  - 做增长——从产品到增长，在缝隙中扎根
+  - 做增长：在夹缝中扎根
 
     - [市场推广](book/marketing.md)
     - [手把手](book/p2p.md)
@@ -38,7 +38,7 @@
     - [现场](book/scene.md)
     - [品牌](book/brand.md)
 
-  - 调方向——在夹缝中挣扎求生
+  - 调方向：夹缝中挣扎
 
     - [数据](book/data.md)
     - [留存](book/retention.md)
@@ -47,7 +47,7 @@
     - [长期](book/long-term.md)
     - [失败](book/fail.md)
 
-- 第四部分：产品之外——拓宽你的缝隙
+- 第四部分：产品之外：拓宽夹缝
 
   - 经营问题
 
