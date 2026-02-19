@@ -30,12 +30,12 @@
 
   - 做增长——从产品到增长，在缝隙中扎根
 
+    - [市场推广](book/marketing.md)
     - [手把手](book/p2p.md)
     - [收入](book/monetize.md)
     - [内容输出](book/content.md)
     - [用户社区](book/community.md)
     - [现场](book/scene.md)
-    - [市场推广](book/marketing.md)
     - [品牌](book/brand.md)
 
   - 调方向——在夹缝中挣扎求生
