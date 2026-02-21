@@ -9,7 +9,7 @@
   - [黑客思维](book/hacker.md)
   - [系统思维](book/systemthinking.md)
 
-- 第二部分：切入点：哪里有缝隙
+- 第二部分：切入：寻找缝隙
 
   - [创意来源](book/creativity.md)
   - [时机](book/timing.md)
@@ -17,55 +17,51 @@
   - [小落点](book/pinpoint.md)
   - [产品金字塔](book/pyramid.md)
 
-- 第三部分：执行
+- 第三部分：产品：挤进夹缝
 
-  - 做产品：找准夹缝
+  - [提案](book/pitch.md)
+  - [不一样](book/difference.md)
+  - [结构](book/structure.md)
+  - [粗糙](book/rough.md)
+  - [留白](book/blank.md)
+  - [可运营的产品](book/marketingdesign.md)
 
-    - [提案](book/pitch.md)
-    - [不一样](book/difference.md)
-    - [结构](book/structure.md)
-    - [粗糙](book/rough.md)
-    - [留白](book/blank.md)
-    - [可运营的产品](book/marketingdesign.md)
+- 第四部分：增长：夹缝扎根
 
-  - 做增长：在夹缝中扎根
+  - [市场推广](book/marketing.md)
+  - [手把手](book/p2p.md)
+  - [收入](book/monetize.md)
+  - [内容输出](book/content.md)
+  - [用户社区](book/community.md)
+  - [现场](book/scene.md)
+  - [品牌](book/brand.md)
 
-    - [市场推广](book/marketing.md)
-    - [手把手](book/p2p.md)
-    - [收入](book/monetize.md)
-    - [内容输出](book/content.md)
-    - [用户社区](book/community.md)
-    - [现场](book/scene.md)
-    - [品牌](book/brand.md)
+- 第五部分：转向：夹缝挣扎
 
-  - 调方向：夹缝中挣扎
+  - [数据](book/data.md)
+  - [留存](book/retention.md)
+  - [非线性发展](book/nonlinear.md)
+  - [转型](book/pivot.md)
+  - [长期](book/long-term.md)
+  - [失败](book/fail.md)
 
-    - [数据](book/data.md)
-    - [留存](book/retention.md)
-    - [非线性发展](book/nonlinear.md)
-    - [转型](book/pivot.md)
-    - [长期](book/long-term.md)
-    - [失败](book/fail.md)
+- 第六部分：经营：守住夹缝
 
-- 第四部分：产品之外：拓宽夹缝
+  - [计算子弹](book/bullet.md)
+  - [风险控制](book/riskcontrol.md)
+  - [投资](book/vc.md)
+  - [全球化](book/global.md)
+  - [小而美](book/company.md)
 
-  - 经营问题
+- 第七部分：团队：夹缝共生
 
-    - [计算子弹](book/bullet.md)
-    - [风险控制](book/riskcontrol.md)
-    - [投资](book/vc.md)
-    - [全球化](book/global.md)
-    - [小而美](book/company.md)
+  - [人才密度](book/raise.md)
+  - [价值观](book/value.md)
+  - [工作与生活平衡](book/worklifebalance.md)
+  - [远程办公](book/remote.md)
+  - [AI 带来的变化](book/ai.md)
 
-  - 组织问题
-
-    - [人才密度](book/raise.md)
-    - [价值观](book/value.md)
-    - [工作与生活平衡](book/worklifebalance.md)
-    - [远程办公](book/remote.md)
-    - [AI 带来的变化](book/ai.md)
-
-- 第五部分：同路人
+- 第八部分：夹缝里的同路人
 
   - [flomo: 从缝隙中生长](book/flomo.md)
 
