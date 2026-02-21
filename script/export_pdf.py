@@ -8,6 +8,7 @@
 用法：
     python script/export_pdf.py
     python script/export_pdf.py -o output/my_book.pdf
+    python script/export_pdf.py --chapter 1
 """
 
 import argparse
@@ -23,6 +24,12 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK_DIR = os.path.join(ROOT_DIR, "book")
 INDEX_FILE = os.path.join(ROOT_DIR, "index.md")
 DEFAULT_OUTPUT = os.path.join(ROOT_DIR, "output", "夹缝生长.pdf")
+
+# 不需要问题页的文件（前言、后记等直接以标题开头）
+SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md"}
+
+# 不参与编号的特殊文件
+SPECIAL_FILES = {"restart.md", "crack.md", "acknowledgments.md"}
 
 
 def parse_index():
@@ -65,8 +72,7 @@ def parse_index():
                 current_section = None
             continue
 
-        # 匹配子分类标题（缩进或顶级均可，但不含链接、不是"第X部分"）
-        # 例如：  - 做产品——xxx  或  - 做增长——xxx
+        # 匹配子分类标题（不含链接）
         section_match = re.match(r"^\s*-\s+(.+?)$", line)
         if section_match and "[" not in line:
             current_section = section_match.group(1).strip()
@@ -86,6 +92,47 @@ def parse_index():
     return book_title, chapters
 
 
+def assign_chapter_numbers(chapters):
+    """为每个常规章节分配编号。前言、后记、致谢不编号。"""
+    num = 0
+    for ch in chapters:
+        basename = os.path.basename(ch["file"])
+        if basename in SPECIAL_FILES or ch.get("is_part_header"):
+            ch["chapter_num"] = None
+        elif ch["part"] and re.match(r"第.+部分", ch["part"]):
+            num += 1
+            ch["chapter_num"] = num
+        else:
+            ch["chapter_num"] = None
+
+
+def add_numbering_to_content(content, chapter_num):
+    """为章节内容的 h1 和 h2 添加编号。不处理 h3 及以下。"""
+    if chapter_num is None:
+        return content
+    h2_counter = 0
+    lines = content.split("\n")
+    result = []
+    for line in lines:
+        if re.match(r"^# ", line):
+            line = re.sub(r"^# (.+)", f"# {chapter_num}. \\1", line)
+        elif re.match(r"^## ", line):
+            h2_counter += 1
+            line = re.sub(r"^## (.+)", f"## {chapter_num}.{h2_counter} \\1", line)
+        result.append(line)
+    return "\n".join(result)
+
+
+def extract_h2_headings(content):
+    """从 markdown 内容中提取 h2 标题列表（原始标题，不含编号）。"""
+    headings = []
+    for line in content.split("\n"):
+        match = re.match(r"^## (.+)", line)
+        if match:
+            headings.append(match.group(1).strip())
+    return headings
+
+
 def read_chapter(file_path):
     """读取章节 markdown 内容。"""
     full_path = os.path.join(ROOT_DIR, file_path)
@@ -94,10 +141,6 @@ def read_chapter(file_path):
         return None
     with open(full_path, "r", encoding="utf-8") as f:
         return f.read()
-
-
-# 不需要问题页的文件（前言、后记、第五部分等直接以标题开头）
-SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md"}
 
 
 def extract_question(content, file_path):
@@ -166,6 +209,9 @@ def build_html(book_title, chapters):
         if content is None:
             continue
 
+        chapter_num = ch.get("chapter_num")
+        chapter_id = os.path.splitext(os.path.basename(ch["file"]))[0]
+
         # 在每个部分前插入部分标题页
         if ch["part"] and ch["part"] not in seen_parts:
             seen_parts.add(ch["part"])
@@ -184,7 +230,7 @@ def build_html(book_title, chapters):
             )
             seen_sections.clear()
 
-        # 子分类标题（独立一页，大字居中）
+        # 子分类标题页（独立一页，大字居中）
         if ch["section"] and ch["section"] not in seen_sections:
             seen_sections.add(ch["section"])
             section_id = f"section-{len(seen_sections)}-{part_counter}"
@@ -204,11 +250,25 @@ def build_html(book_title, chapters):
         # 提取引导问题
         question, content = extract_question(content, ch["file"])
 
+        # 提取 h2 标题（在添加编号之前）
+        h2_headings = extract_h2_headings(content)
+
+        # 添加编号
+        content = add_numbering_to_content(content, chapter_num)
+
         # 章节内容
-        chapter_id = os.path.splitext(os.path.basename(ch["file"]))[0]
         html_content = markdown.markdown(content, extensions=md_extensions)
         html_content = fix_image_paths(html_content, BOOK_DIR)
         html_content = mark_epigraphs(html_content)
+
+        # 为 h2 添加可链接的 ID
+        h2_idx = [0]
+
+        def replace_h2_tag(match, _idx=h2_idx, _cid=chapter_id):
+            _idx[0] += 1
+            return f'<h2 id="{_cid}-h2-{_idx[0]}">'
+
+        html_content = re.sub(r'<h2[^>]*>', replace_h2_tag, html_content)
 
         # 插入问题页（独立一页，显示在章节正文之前）
         if question:
@@ -218,7 +278,7 @@ def build_html(book_title, chapters):
                 f'</div>'
             )
 
-        # 为章节的第一个 h1 替换 ID（toc 扩展可能已经生成了 id）
+        # 为章节的第一个 h1 替换 ID
         html_content = re.sub(
             r'<h1[^>]*>',
             f'<h1 id="{chapter_id}">',
@@ -226,8 +286,24 @@ def build_html(book_title, chapters):
             count=1,
         )
 
+        # 构建目录条目
+        display_title = f"{chapter_num}. {ch['title']}" if chapter_num else ch["title"]
+        chapter_entry = {
+            "type": "chapter",
+            "title": display_title,
+            "id": chapter_id,
+            "subheadings": [],
+        }
+
+        # 添加 h2 子标题到目录
+        if chapter_num and h2_headings:
+            for i, heading in enumerate(h2_headings, 1):
+                chapter_entry["subheadings"].append({
+                    "title": f"{chapter_num}.{i} {heading}",
+                    "id": f"{chapter_id}-h2-{i}",
+                })
+
         # 添加到目录
-        chapter_entry = {"type": "chapter", "title": ch["title"], "id": chapter_id}
         if toc_items and toc_items[-1]["type"] == "part":
             children = toc_items[-1]["children"]
             if children and children[-1]["type"] == "section":
@@ -271,8 +347,59 @@ def build_html(book_title, chapters):
     return html
 
 
+def build_chapter_html_standalone(book_title, chapters):
+    """构建单个章节的 HTML（用于单章节导出）。"""
+    md_extensions = ["extra", "toc", "sane_lists", "smarty"]
+
+    body_parts = []
+
+    for ch in chapters:
+        content = read_chapter(ch["file"])
+        if content is None:
+            continue
+
+        chapter_num = ch.get("chapter_num")
+
+        # 提取引导问题
+        question, content = extract_question(content, ch["file"])
+
+        # 添加编号
+        content = add_numbering_to_content(content, chapter_num)
+
+        # 章节内容
+        html_content = markdown.markdown(content, extensions=md_extensions)
+        html_content = fix_image_paths(html_content, BOOK_DIR)
+        html_content = mark_epigraphs(html_content)
+
+        # 插入问题页
+        if question:
+            body_parts.append(
+                f'<div class="question-page">'
+                f'<p class="question-text">{question}</p>'
+                f'</div>'
+            )
+
+        body_parts.append(f'<div class="chapter">{html_content}</div>')
+
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{book_title}</title>
+<style>
+{get_css()}
+</style>
+</head>
+<body>
+{"".join(body_parts)}
+</body>
+</html>"""
+
+    return html
+
+
 def build_toc_html(toc_items):
-    """构建目录 HTML。"""
+    """构建目录 HTML，包含章节编号和 h2 子标题。"""
     lines = ['<nav class="toc">']
     for item in toc_items:
         if item["type"] == "part":
@@ -291,12 +418,24 @@ def build_toc_html(toc_items):
                             f'<a href="#{ch["id"]}">{ch["title"]}</a>'
                             f"</div>"
                         )
+                        for sub in ch.get("subheadings", []):
+                            lines.append(
+                                f'<div class="toc-subheading">'
+                                f'<a href="#{sub["id"]}">{sub["title"]}</a>'
+                                f"</div>"
+                            )
                 elif child["type"] == "chapter":
                     lines.append(
                         f'<div class="toc-chapter">'
                         f'<a href="#{child["id"]}">{child["title"]}</a>'
                         f"</div>"
                     )
+                    for sub in child.get("subheadings", []):
+                        lines.append(
+                            f'<div class="toc-subheading">'
+                            f'<a href="#{sub["id"]}">{sub["title"]}</a>'
+                            f"</div>"
+                        )
             lines.append("</div>")
         elif item["type"] == "chapter":
             lines.append(
@@ -304,6 +443,12 @@ def build_toc_html(toc_items):
                 f'<a href="#{item["id"]}">{item["title"]}</a>'
                 f"</div>"
             )
+            for sub in item.get("subheadings", []):
+                lines.append(
+                    f'<div class="toc-subheading toc-top-sub">'
+                    f'<a href="#{sub["id"]}">{sub["title"]}</a>'
+                    f"</div>"
+                )
     lines.append("</nav>")
     return "\n".join(lines)
 
@@ -403,6 +548,26 @@ body {
 .toc-top {
     margin-left: 1em;
     font-size: 11pt;
+}
+
+.toc-subheading {
+    font-size: 10pt;
+    margin-left: 3.5em;
+    line-height: 1.8;
+}
+
+.toc-subheading a {
+    color: #666;
+}
+
+.toc-subheading a::after {
+    content: target-counter(attr(href), page);
+    float: right;
+    color: #bbb;
+}
+
+.toc-top-sub {
+    margin-left: 2.5em;
 }
 
 /* 部分标题页 */
@@ -595,8 +760,14 @@ def main():
     parser = argparse.ArgumentParser(description="导出《夹缝生长》为 PDF")
     parser.add_argument(
         "-o", "--output",
-        default=DEFAULT_OUTPUT,
+        default=None,
         help=f"输出路径 (默认: {DEFAULT_OUTPUT})",
+    )
+    parser.add_argument(
+        "--chapter",
+        type=int,
+        default=None,
+        help="导出指定章节（按编号，如 --chapter 1）",
     )
     parser.add_argument(
         "--html",
@@ -605,18 +776,38 @@ def main():
     )
     args = parser.parse_args()
 
+    print("解析目录结构...")
+    book_title, chapters = parse_index()
+    assign_chapter_numbers(chapters)
+    print(f"  书名: {book_title}")
+    print(f"  章节数: {len(chapters)}")
+
+    # 按章节过滤
+    if args.chapter is not None:
+        target = [ch for ch in chapters if ch.get("chapter_num") == args.chapter]
+        if not target:
+            print(f"错误：找不到第 {args.chapter} 章", file=sys.stderr)
+            sys.exit(1)
+        chapters = target
+        ch = target[0]
+        if args.output is None:
+            output_dir = os.path.join(ROOT_DIR, "output")
+            args.output = os.path.join(output_dir, f"{args.chapter:02d}-{ch['title']}.pdf")
+        print(f"  导出章节: {args.chapter}. {ch['title']}")
+    else:
+        if args.output is None:
+            args.output = DEFAULT_OUTPUT
+
     # 确保输出目录存在
     output_dir = os.path.dirname(args.output)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
 
-    print("解析目录结构...")
-    book_title, chapters = parse_index()
-    print(f"  书名: {book_title}")
-    print(f"  章节数: {len(chapters)}")
-
     print("合并章节内容...")
-    html = build_html(book_title, chapters)
+    if args.chapter is not None:
+        html = build_chapter_html_standalone(book_title, chapters)
+    else:
+        html = build_html(book_title, chapters)
 
     if args.html:
         html_path = args.output.rsplit(".", 1)[0] + ".html"

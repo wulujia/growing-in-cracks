@@ -8,6 +8,7 @@
 用法：
     python script/export_docx.py
     python script/export_docx.py -o output/my_book.docx
+    python script/export_docx.py --chapter 1
 """
 
 import argparse
@@ -15,14 +16,12 @@ import io
 import os
 import re
 import sys
-import tempfile
 from html.parser import HTMLParser
 
 import markdown
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.enum.section import WD_ORIENT
 from docx.oxml.ns import qn
 from PIL import Image
 
@@ -39,6 +38,9 @@ DEFAULT_OUTPUT = os.path.join(ROOT_DIR, "output", "夹缝生长.docx")
 
 # 不需要问题页的文件
 SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md", "acknowledgments.md"}
+
+# 不参与编号的特殊文件
+SPECIAL_FILES = {"restart.md", "crack.md", "acknowledgments.md"}
 
 
 def parse_index():
@@ -93,6 +95,47 @@ def parse_index():
             })
 
     return book_title, chapters
+
+
+def assign_chapter_numbers(chapters):
+    """为每个常规章节分配编号。前言、后记、致谢不编号。"""
+    num = 0
+    for ch in chapters:
+        basename = os.path.basename(ch["file"])
+        if basename in SPECIAL_FILES or ch.get("is_part_header"):
+            ch["chapter_num"] = None
+        elif ch["part"] and re.match(r"第.+部分", ch["part"]):
+            num += 1
+            ch["chapter_num"] = num
+        else:
+            ch["chapter_num"] = None
+
+
+def add_numbering_to_content(content, chapter_num):
+    """为章节内容的 h1 和 h2 添加编号。不处理 h3 及以下。"""
+    if chapter_num is None:
+        return content
+    h2_counter = 0
+    lines = content.split("\n")
+    result = []
+    for line in lines:
+        if re.match(r"^# ", line):
+            line = re.sub(r"^# (.+)", f"# {chapter_num}. \\1", line)
+        elif re.match(r"^## ", line):
+            h2_counter += 1
+            line = re.sub(r"^## (.+)", f"## {chapter_num}.{h2_counter} \\1", line)
+        result.append(line)
+    return "\n".join(result)
+
+
+def extract_h2_headings(content):
+    """从 markdown 内容中提取 h2 标题列表（原始标题，不含编号）。"""
+    headings = []
+    for line in content.split("\n"):
+        match = re.match(r"^## (.+)", line)
+        if match:
+            headings.append(match.group(1).strip())
+    return headings
 
 
 def read_chapter(file_path):
@@ -513,13 +556,15 @@ def add_question_page(doc, question):
 # ---------------------------------------------------------------------------
 
 def add_toc_page(doc, chapters):
-    """添加目录页。"""
+    """添加目录页，包含章节编号和 h2 子标题。"""
     doc.add_heading("目录", level=1).alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     seen_parts = set()
     seen_sections = set()
 
     for ch in chapters:
+        chapter_num = ch.get("chapter_num")
+
         if ch["part"] and ch["part"] not in seen_parts:
             seen_parts.add(ch["part"])
             seen_sections.clear()
@@ -544,14 +589,32 @@ def add_toc_page(doc, chapters):
             run.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
             run.bold = True
 
+        # 章节标题（带编号）
+        display_title = f"{chapter_num}. {ch['title']}" if chapter_num else ch["title"]
         p = doc.add_paragraph()
         p.paragraph_format.left_indent = Cm(2)
         p.paragraph_format.space_before = Pt(1)
         p.paragraph_format.space_after = Pt(1)
-        run = p.add_run(ch["title"])
+        run = p.add_run(display_title)
         set_run_font(run)
         run.font.size = Pt(10.5)
         run.font.color.rgb = RGBColor(0x44, 0x44, 0x44)
+
+        # h2 子标题
+        if chapter_num:
+            content = read_chapter(ch["file"])
+            if content:
+                _, body = extract_question(content, ch["file"])
+                h2_headings = extract_h2_headings(body)
+                for i, heading in enumerate(h2_headings, 1):
+                    p = doc.add_paragraph()
+                    p.paragraph_format.left_indent = Cm(3)
+                    p.paragraph_format.space_before = Pt(0)
+                    p.paragraph_format.space_after = Pt(0)
+                    run = p.add_run(f"{chapter_num}.{i} {heading}")
+                    set_run_font(run)
+                    run.font.size = Pt(9.5)
+                    run.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
     add_page_break(doc)
 
@@ -564,29 +627,53 @@ def main():
     parser = argparse.ArgumentParser(description="导出《夹缝生长》为 DOCX")
     parser.add_argument(
         "-o", "--output",
-        default=DEFAULT_OUTPUT,
+        default=None,
         help=f"输出路径 (默认: {DEFAULT_OUTPUT})",
     )
+    parser.add_argument(
+        "--chapter",
+        type=int,
+        default=None,
+        help="导出指定章节（按编号，如 --chapter 1）",
+    )
     args = parser.parse_args()
+
+    print("解析目录结构...")
+    book_title, chapters = parse_index()
+    assign_chapter_numbers(chapters)
+    print(f"  书名: {book_title}")
+    print(f"  章节数: {len(chapters)}")
+
+    # 按章节过滤
+    if args.chapter is not None:
+        target = [ch for ch in chapters if ch.get("chapter_num") == args.chapter]
+        if not target:
+            print(f"错误：找不到第 {args.chapter} 章", file=sys.stderr)
+            sys.exit(1)
+        chapters = target
+        ch = target[0]
+        if args.output is None:
+            output_dir = os.path.join(ROOT_DIR, "output")
+            args.output = os.path.join(output_dir, f"{args.chapter:02d}-{ch['title']}.docx")
+        print(f"  导出章节: {args.chapter}. {ch['title']}")
+    else:
+        if args.output is None:
+            args.output = DEFAULT_OUTPUT
 
     output_dir = os.path.dirname(args.output)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
 
-    print("解析目录结构...")
-    book_title, chapters = parse_index()
-    print(f"  书名: {book_title}")
-    print(f"  章节数: {len(chapters)}")
-
     # 创建文档
     doc = Document()
     setup_styles(doc)
 
-    # 封面
-    add_cover_page(doc, book_title)
+    if args.chapter is None:
+        # 封面
+        add_cover_page(doc, book_title)
 
-    # 目录
-    add_toc_page(doc, chapters)
+        # 目录
+        add_toc_page(doc, chapters)
 
     print("合并章节内容...")
 
@@ -598,14 +685,16 @@ def main():
         if content is None:
             continue
 
-        # 部分标题页
-        if ch["part"] and ch["part"] not in seen_parts:
+        chapter_num = ch.get("chapter_num")
+
+        # 部分标题页（单章导出时跳过）
+        if args.chapter is None and ch["part"] and ch["part"] not in seen_parts:
             seen_parts.add(ch["part"])
             add_centered_page(doc, ch["part"], font_size=Pt(26))
             seen_sections.clear()
 
-        # 子分类标题页
-        if ch["section"] and ch["section"] not in seen_sections:
+        # 子分类标题页（单章导出时跳过）
+        if args.chapter is None and ch["section"] and ch["section"] not in seen_sections:
             seen_sections.add(ch["section"])
             add_centered_page(
                 doc, ch["section"],
@@ -615,6 +704,9 @@ def main():
 
         # 提取引导问题
         question, content = extract_question(content, ch["file"])
+
+        # 添加编号
+        content = add_numbering_to_content(content, chapter_num)
 
         # 问题页（独立一页，在章节最前面）
         if question:

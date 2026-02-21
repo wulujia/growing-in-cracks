@@ -8,6 +8,7 @@
 用法：
     python script/export_epub.py
     python script/export_epub.py -o output/my_book.epub
+    python script/export_epub.py --chapter 1
 """
 
 import argparse
@@ -27,6 +28,9 @@ DEFAULT_OUTPUT = os.path.join(ROOT_DIR, "output", "夹缝生长.epub")
 
 # 不需要问题页的文件
 SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md", "acknowledgments.md"}
+
+# 不参与编号的特殊文件
+SPECIAL_FILES = {"restart.md", "crack.md", "acknowledgments.md"}
 
 
 def parse_index():
@@ -81,6 +85,47 @@ def parse_index():
             })
 
     return book_title, chapters
+
+
+def assign_chapter_numbers(chapters):
+    """为每个常规章节分配编号。前言、后记、致谢不编号。"""
+    num = 0
+    for ch in chapters:
+        basename = os.path.basename(ch["file"])
+        if basename in SPECIAL_FILES or ch.get("is_part_header"):
+            ch["chapter_num"] = None
+        elif ch["part"] and re.match(r"第.+部分", ch["part"]):
+            num += 1
+            ch["chapter_num"] = num
+        else:
+            ch["chapter_num"] = None
+
+
+def add_numbering_to_content(content, chapter_num):
+    """为章节内容的 h1 和 h2 添加编号。不处理 h3 及以下。"""
+    if chapter_num is None:
+        return content
+    h2_counter = 0
+    lines = content.split("\n")
+    result = []
+    for line in lines:
+        if re.match(r"^# ", line):
+            line = re.sub(r"^# (.+)", f"# {chapter_num}. \\1", line)
+        elif re.match(r"^## ", line):
+            h2_counter += 1
+            line = re.sub(r"^## (.+)", f"## {chapter_num}.{h2_counter} \\1", line)
+        result.append(line)
+    return "\n".join(result)
+
+
+def extract_h2_headings(content):
+    """从 markdown 内容中提取 h2 标题列表（原始标题，不含编号）。"""
+    headings = []
+    for line in content.split("\n"):
+        match = re.match(r"^## (.+)", line)
+        if match:
+            headings.append(match.group(1).strip())
+    return headings
 
 
 def read_chapter(file_path):
@@ -327,19 +372,42 @@ def main():
     parser = argparse.ArgumentParser(description="导出《夹缝生长》为 EPUB")
     parser.add_argument(
         "-o", "--output",
-        default=DEFAULT_OUTPUT,
+        default=None,
         help=f"输出路径 (默认: {DEFAULT_OUTPUT})",
     )
+    parser.add_argument(
+        "--chapter",
+        type=int,
+        default=None,
+        help="导出指定章节（按编号，如 --chapter 1）",
+    )
     args = parser.parse_args()
+
+    print("解析目录结构...")
+    book_title, chapters = parse_index()
+    assign_chapter_numbers(chapters)
+    print(f"  书名: {book_title}")
+    print(f"  章节数: {len(chapters)}")
+
+    # 按章节过滤
+    if args.chapter is not None:
+        target = [ch for ch in chapters if ch.get("chapter_num") == args.chapter]
+        if not target:
+            print(f"错误：找不到第 {args.chapter} 章", file=sys.stderr)
+            sys.exit(1)
+        chapters = target
+        ch = target[0]
+        if args.output is None:
+            output_dir = os.path.join(ROOT_DIR, "output")
+            args.output = os.path.join(output_dir, f"{args.chapter:02d}-{ch['title']}.epub")
+        print(f"  导出章节: {args.chapter}. {ch['title']}")
+    else:
+        if args.output is None:
+            args.output = DEFAULT_OUTPUT
 
     output_dir = os.path.dirname(args.output)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
-
-    print("解析目录结构...")
-    book_title, chapters = parse_index()
-    print(f"  书名: {book_title}")
-    print(f"  章节数: {len(chapters)}")
 
     # 创建 EPUB
     book = epub.EpubBook()
@@ -375,10 +443,11 @@ def main():
         if content is None:
             continue
 
+        chapter_num = ch.get("chapter_num")
         chapter_id = os.path.splitext(os.path.basename(ch["file"]))[0]
 
-        # 部分标题页
-        if ch["part"] and ch["part"] not in seen_parts:
+        # 部分标题页（单章导出时跳过）
+        if args.chapter is None and ch["part"] and ch["part"] not in seen_parts:
             seen_parts.add(ch["part"])
             part_counter += 1
             part_id = f"part-{part_counter}"
@@ -402,8 +471,8 @@ def main():
             current_toc_section = None
             seen_sections.clear()
 
-        # 子分类标题页
-        if ch["section"] and ch["section"] not in seen_sections:
+        # 子分类标题页（单章导出时跳过）
+        if args.chapter is None and ch["section"] and ch["section"] not in seen_sections:
             seen_sections.add(ch["section"])
             section_id = f"section-{len(seen_sections)}-{part_counter}"
 
@@ -431,6 +500,12 @@ def main():
         # 提取引导问题
         question, content = extract_question(content, ch["file"])
 
+        # 提取 h2 标题（在添加编号之前）
+        h2_headings = extract_h2_headings(content)
+
+        # 添加编号
+        content = add_numbering_to_content(content, chapter_num)
+
         # 问题页
         if question:
             q_id = f"question-{chapter_id}"
@@ -452,6 +527,15 @@ def main():
         html_content = markdown.markdown(content, extensions=md_extensions)
         html_content = mark_epigraphs(html_content)
 
+        # 为 h2 添加可链接的 ID
+        h2_idx = [0]
+
+        def replace_h2_tag(match, _idx=h2_idx, _cid=chapter_id):
+            _idx[0] += 1
+            return f'<h2 id="{_cid}-h2-{_idx[0]}">'
+
+        html_content = re.sub(r'<h2[^>]*>', replace_h2_tag, html_content)
+
         # 收集并处理图片
         images = collect_images(html_content, ch["file"])
         for src, info in images.items():
@@ -460,9 +544,12 @@ def main():
                 all_images[epub_path] = info["abs_path"]
             html_content = html_content.replace(f'src="{src}"', f'src="{epub_path}"')
 
-        chapter_html = build_chapter_html(ch["title"], html_content)
+        # 构建显示标题
+        display_title = f"{chapter_num}. {ch['title']}" if chapter_num else ch["title"]
+
+        chapter_html = build_chapter_html(display_title, html_content)
         chapter_item = epub.EpubHtml(
-            title=ch["title"],
+            title=display_title,
             file_name=f"{chapter_id}.xhtml",
             lang="zh-CN",
         )
@@ -471,14 +558,34 @@ def main():
         book.add_item(chapter_item)
         spine.append(chapter_item)
 
-        # 添加到目录
-        link = epub.Link(f"{chapter_id}.xhtml", ch["title"], chapter_id)
-        if current_toc_section:
-            current_toc_section[1].append(link)
-        elif current_toc_part:
-            current_toc_part[1].append(link)
+        # 构建目录条目（含 h2 子标题）
+        chapter_link = epub.Link(f"{chapter_id}.xhtml", display_title, chapter_id)
+
+        sub_links = []
+        if chapter_num and h2_headings:
+            for i, heading in enumerate(h2_headings, 1):
+                sub_title = f"{chapter_num}.{i} {heading}"
+                sub_links.append(
+                    epub.Link(
+                        f"{chapter_id}.xhtml#{chapter_id}-h2-{i}",
+                        sub_title,
+                        f"{chapter_id}-h2-{i}",
+                    )
+                )
+
+        # 有子标题时用 tuple 形式，否则用简单 Link
+        if sub_links:
+            chapter_entry = (chapter_link, sub_links)
         else:
-            toc.append(link)
+            chapter_entry = chapter_link
+
+        # 添加到目录
+        if current_toc_section:
+            current_toc_section[1].append(chapter_entry)
+        elif current_toc_part:
+            current_toc_part[1].append(chapter_entry)
+        else:
+            toc.append(chapter_entry)
 
     # 添加图片到 EPUB
     for epub_path, abs_path in all_images.items():
