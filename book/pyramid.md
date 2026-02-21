@@ -2,7 +2,7 @@
 
 ---
 
-# 产品-市场契合度金字塔
+# 产品市场契合
 
 > Fall in love with the problem, not the solution.
 > 爱上问题，而不是解决方案。
