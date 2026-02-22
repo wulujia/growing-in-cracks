@@ -299,12 +299,3 @@ Tony 的第一反应是：挺好的啊，没有急剧下跌，说明这一关站
 回到开头村上春树说的：十个人里有一个成为回头客，生意就能维持下去。
 
 但他还说了另一句：必须确保那个喜欢这里的人是真的喜欢。为此，要让自己的理念和态度足够鲜明，并且无论如何都要耐心地坚持下去。
-
----
-
-本章链接：
-
-1. Lenny Rachitsky, What is good retention: https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29
-2. Casey Winters, What is good retention: https://caseyaccidental.com/what-is-good-retention
-3. Lenny Rachitsky, How to increase your product's retention: https://www.lennysnewsletter.com/p/how-to-increase-your-products-retention
-4. Lenny Rachitsky, How to measure cohort retention: https://www.lennysnewsletter.com/p/how-to-measure-cohort-retention

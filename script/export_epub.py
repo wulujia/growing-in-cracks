@@ -102,10 +102,11 @@ def assign_chapter_numbers(chapters):
 
 
 def add_numbering_to_content(content, chapter_num):
-    """为章节内容的 h1 和 h2 添加编号。不处理 h3 及以下。"""
+    """为章节内容的 h1、h2、h3 添加编号。"""
     if chapter_num is None:
         return content
     h2_counter = 0
+    h3_counter = 0
     lines = content.split("\n")
     result = []
     for line in lines:
@@ -113,7 +114,11 @@ def add_numbering_to_content(content, chapter_num):
             line = re.sub(r"^# (.+)", f"# {chapter_num}. \\1", line)
         elif re.match(r"^## ", line):
             h2_counter += 1
+            h3_counter = 0
             line = re.sub(r"^## (.+)", f"## {chapter_num}.{h2_counter} \\1", line)
+        elif re.match(r"^### ", line):
+            h3_counter += 1
+            line = re.sub(r"^### (.+)", f"### {chapter_num}.{h2_counter}.{h3_counter} \\1", line)
         result.append(line)
     return "\n".join(result)
 
