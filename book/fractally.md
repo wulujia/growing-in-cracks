@@ -24,7 +24,7 @@
 
 ## 分形思想
 
-这种从光滑到粗糙的视角转变，著名投资机构 YC 的创始人 Paul Graham 用一个词来形容：分形（Fractally）。他在 How to Do Great Work（见本章链接 1）里写：
+这种从光滑到粗糙的视角转变，著名投资机构 YC 的创始人 Paul Graham 用一个词来形容：分形（Fractally）。他在 How to Do Great Work里写：
 
 > Once you've found something you're excessively interested in, the next step is to learn enough about it to get you to one of the frontiers of knowledge. Knowledge expands fractally, and from a distance its edges look smooth, but once you learn enough to get close to one, they turn out to be full of gaps.
 > 一旦你发现了你非常感兴趣的东西，下一步就是充分了解它，成为该领域最前沿的探索者。知识呈分形扩展，从远处看，它的边缘很光滑，但一旦你掌握足够多的知识，足够接近与深入，就会发现它们充满了间隙。
@@ -170,9 +170,3 @@ Fivetran 就是个好例子。两位创始人最初做的是一个企业数据�
 创业的起点，不用仰望星空，感慨巨头强大。而是低下头，拿起你的放大镜，去寻找那片属于你的、尚未被清晰描绘的“森林”。
 
 找到了夹缝，下一步，就是如何撬开它。这需要另一种工具：黑客思维。
-
----
-
-本章链接：
-
-1. Paul Graham, How to Do Great Work: https://paulgraham.com/greatwork.html

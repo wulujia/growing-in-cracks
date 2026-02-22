@@ -2,7 +2,7 @@
 
 ---
 
-# 怎么全球化
+# 全球化
 
 > Think globally, act locally.
 > 全球思考，本地行动。

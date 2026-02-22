@@ -199,10 +199,3 @@ Paul Graham 的建议是：粗糙的第一版，非正式地发布，快速迭�
 - 土壤：用户准备好了吗？
 
 四个问题都有答案，那就试试吧。没想清楚就开始，失败了也没收获，那才是最可惜的。
-
----
-
-本章链接：
-
-1. Paul Graham, Things I've Learned from Users: https://paulgraham.com/newthings.html
-

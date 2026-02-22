@@ -50,7 +50,7 @@
   - [计算子弹](book/bullet.md)
   - [风险控制](book/riskcontrol.md)
   - [融资](book/vc.md)
-  - [怎么全球化](book/global.md)
+  - [全球化](book/global.md)
   - [小而美](book/company.md)
 
 - 第七部分：团队：夹缝共生
