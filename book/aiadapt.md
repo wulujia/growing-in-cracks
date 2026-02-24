@@ -4,6 +4,11 @@ AI 时代，小产品该怎么办？
 
 # 顺应 AI
 
+> Some people worry that artificial intelligence will make us feel inferior, but then, anybody in his right mind should have an inferiority complex every time he looks at a flower.
+> 有人担心人工智能会让我们感到自卑，但说实话，任何头脑正常的人每次看到一朵花时都应该感到自卑。
+>
+> —— Alan Kay
+
 AI 世界的变化速度超出所有人的预期。2023 年的关键词是涌现（Emergence），大模型展现出意料之外的能力。2024 年是推理（Reasoning），模型学会了一步步思考。2025 年是代理（Agent），AI 开始自主完成复杂任务。每一年的主题都在刷新上一年的认知。
 
 在这样的环境里，什么能赢、什么会死？

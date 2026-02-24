@@ -9,11 +9,6 @@ AI 会给小团队带来什么变化？
 >
 > —— William Gibson
 
-> Some people worry that artificial intelligence will make us feel inferior, but then, anybody in his right mind should have an inferiority complex every time he looks at a flower.
-> 有人担心人工智能会让我们感到自卑，但说实话，任何头脑正常的人每次看到一朵花时都应该感到自卑。
->
-> —— Alan Kay
-
 > These are the stupidest the models will ever be.
 > 现在的模型是有史以来最蠢的。
 >
