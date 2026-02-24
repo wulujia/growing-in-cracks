@@ -29,12 +29,11 @@
 - 第四部分：增长：夹缝扎根
 
   - [市场推广](book/marketing.md)
-  - [第一批用户](book/p2p.md)
+  - [第一批用户](book/firstusers.md)
   - [收入](book/monetize.md)
   - [内容输出](book/content.md)
   - [用户社区](book/community.md)
   - [现场](book/scene.md)
-  - [品牌](book/brand.md)
 
 - 第五部分：转向：夹缝挣扎
 
