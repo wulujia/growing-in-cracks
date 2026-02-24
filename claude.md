@@ -19,7 +19,7 @@
   - 前言: restart.md
   - 第一部分（思维）: fractally.md, hacker.md, systemthinking.md
   - 第二部分（开端）: creativity.md, timing.md, productselection.md, pinpoint.md, pyramid.md
-  - 第三部分（执行）: pitch.md, difference.md, structure.md, rough.md, blank.md, marketingdesign.md, firstusers.md, content.md, community.md, scene.md, marketing.md, monetize.md, brand.md, data.md, retention.md, nonlinear.md, pivot.md, long-term.md, fail.md
+  - 第三部分（执行）: pitch.md, difference.md, structure.md, rough.md, blank.md, marketingdesign.md, firstusers.md, content.md, community.md, scene.md, monetize.md, data.md, retention.md, nonlinear.md, pivot.md, long-term.md, fail.md
   - 第四部分（产品之外）: bullet.md, riskcontrol.md, vc.md, global.md, company.md, raise.md, value.md, worklifebalance.md, remote.md, ai.md
   - 后记: crack.md
 - `backup/`: 备份和历史版本

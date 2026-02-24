@@ -28,7 +28,6 @@
 
 - 第四部分：增长：夹缝扎根
 
-  - [市场推广](book/marketing.md)
   - [第一批用户](book/firstusers.md)
   - [收入](book/monetize.md)
   - [内容输出](book/content.md)
