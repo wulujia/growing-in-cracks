@@ -59,7 +59,8 @@
   - [价值观与规则](book/value.md)
   - [工作与生活平衡](book/worklifebalance.md)
   - [远程办公](book/remote.md)
-  - [AI 带来的变化](book/ai.md)
+  - [与 AI 协作](book/ai.md)
+  - [顺应 AI](book/aiadapt.md)
 
 - 第八部分：夹缝里的同路人
 
