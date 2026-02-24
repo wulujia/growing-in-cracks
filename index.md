@@ -37,7 +37,7 @@
 - 第五部分：转向：夹缝挣扎
 
   - [数据](book/data.md)
-  - [产品留存率](book/retention.md)
+  - [留存](book/retention.md)
   - [非线性发展](book/nonlinear.md)
   - [转型](book/pivot.md)
   - [长期](book/long-term.md)

@@ -2,7 +2,7 @@
 
 ---
 
-# 产品留存率
+# 留存
 
 > It costs five times as much to attract a new customer than to keep an existing one.
 > 获取一个新客户的成本是留住一个老客户的五倍。
