@@ -63,5 +63,6 @@
 - 第八部分：夹缝里的同路人
 
   - [flomo: 从缝隙中生长](book/flomo.md)
+  - [生财有术：一条能长期流动的河](book/scys.md)
 
 - 后记：[夹缝中的小而美](book/crack.md)
