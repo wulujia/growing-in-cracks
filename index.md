@@ -22,8 +22,9 @@
   - [提案](book/pitch.md)
   - [不一样](book/difference.md)
   - [结构](book/structure.md)
-  - [粗糙](book/rough.md)
+  - [抽象](book/abstract.md)
   - [留白](book/blank.md)
+  - [粗糙](book/rough.md)
   - [可运营的产品](book/marketingdesign.md)
 
 - 第四部分：增长：夹缝扎根
