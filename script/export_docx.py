@@ -319,6 +319,14 @@ class HTMLToDocxConverter(HTMLParser):
             return
 
         if tag == "p":
+            # 图片说明居中 + 小字灰色
+            if self._paragraph is not None:
+                text = self._paragraph.text.strip()
+                if re.match(r"^图\s+\d+-\d+", text):
+                    self._paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    for run in self._paragraph.runs:
+                        run.font.size = Pt(9.5)
+                        run.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
             self._finish_paragraph()
             return
 

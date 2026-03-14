@@ -172,6 +172,15 @@ def mark_epigraphs(html_content):
     )
 
 
+def mark_image_captions(html_content):
+    """将图片说明段落（如"图 1-1 说明"）标记为 caption。"""
+    return re.sub(
+        r'(<p>)(图\s+\d+-\d+)',
+        r'<p class="img-caption">\2',
+        html_content,
+    )
+
+
 def collect_images(html_content, file_path):
     """收集章节中引用的本地图片路径，返回 {原始src: 文件名} 映射。"""
     images = {}
@@ -263,6 +272,13 @@ img {
     height: auto;
     display: block;
     margin: 1em auto;
+}
+
+.img-caption {
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    margin-top: -0.5em;
 }
 
 code {
@@ -531,6 +547,7 @@ def main():
         # 章节内容
         html_content = markdown.markdown(content, extensions=md_extensions)
         html_content = mark_epigraphs(html_content)
+        html_content = mark_image_captions(html_content)
 
         # 为 h2 添加可链接的 ID
         h2_idx = [0]
