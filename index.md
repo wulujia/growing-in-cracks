@@ -65,5 +65,6 @@
 
   - [flomo: 从缝隙中生长](book/flomo.md)
   - [生财有术：一条能长期流动的河](book/scys.md)
+  - [无码科技：夹缝中生存的心得](book/wuma.md)
 
 - 后记：[夹缝中的小而美](book/crack.md)
