@@ -4,11 +4,6 @@
 
 # AI 撞过来了
 
-> Some people worry that artificial intelligence will make us feel inferior, but then, anybody in his right mind should have an inferiority complex every time he looks at a flower.
-> 有人担心人工智能会让我们感到自卑，但说实话，任何头脑正常的人每次看到一朵花时都应该感到自卑。
->
-> —— Alan Kay
-
 ## 撞上了
 
 2023 年初，ChatGPT 火了。我兴奋了一阵子，马上想到知识星球：能不能给每个星球接个 AI 助手？星主反复回答简单问题很烦，沉淀的大量优质内容无法被有效发现，AI 可以帮忙。用户付费给星主，星主付费给我们，我们付费给 ChatGPT，商业模式说得通。
