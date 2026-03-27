@@ -1,12 +1,6 @@
 commit	avg_score	status	description
-baseline	65.0	baseline	marketingdesign.md baseline
-1384432	68.0	keep	修正OpenClaw事实错误更正创始人发布时间和核心卖点
-425dfea	73.0	keep	打破积木1-4的模板化开头用不同方式切入
-63bf61f	75.0	keep	打破积木5-7的模板化开头用不同方式切入
-00e1fcf	78.0	keep	删除7个积木结尾的模板句适用场景已在应用节统一讲
-53e714c	80.0	keep	收紧前三节重复定义让每次出现有信息增量
-a89e206	82.0	keep	改写章末总结避免与过度设计节重复放大器措辞
-fb739c0	85.0	keep	替换5处经典典型案例和AI味词汇用不同引入方式
-4094c0f	87.0	keep	合并过度设计节的重复段落精简反面案例
-675d5e0	89.0	keep	收紧积木关键点清单段从堆砌改为叙述
-dc373a7	90.0	keep	去掉模糊词可能和套话替换为确定表述
+f753810	80	baseline	—
+7be7e95	83	keep	替换两条误引为Peter Thiel可靠引言并合并为一条
+3be6bc9	85	keep	改写PPT式编号标准融入叙述体
+c6d311f	87	keep	用广场案例直接引入去掉三连抽象名词咨询报告感
+dc1c927	89	keep	合并结尾两段消除而非模式重复
