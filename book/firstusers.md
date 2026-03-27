@@ -30,7 +30,7 @@ Patrick 没这么做。他说：“把你的电脑给我。”
 
 这个手法后来在 Y Combinator 内部有了专属名字：Collison Installation——Collison 式安装。Patrick 和弟弟 John 用这种方式拿下了 Stripe 的前 20 个客户，全是 YC 圈子里的创业者。这些人又把 Stripe 推荐给自己的朋友。一年后 Stripe 公开发布时，已经有 100 个付费客户在用了。
 
-这就是“手把手”的字面意思：拿过用户的电脑，亲手帮他装好。
+这就是手把手的字面意思：拿过用户的电脑，亲手帮他装好。
 
 这种做法看起来效率极低。一个下午最多搞定几个人，怎么可能规模化？但 YC 创始人 Paul Graham 说，这恰恰是早期创业最该做的事。他给这类事情起了个名字：Do Things That Don't Scale——做不可扩展的事。
 
