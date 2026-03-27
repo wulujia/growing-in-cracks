@@ -7,18 +7,18 @@
 > How did you go bankrupt? Two ways. Gradually, then suddenly.
 > 你是怎么破产的？两种方式。慢慢地，然后突然地。
 >
-> —— Ernest Hemingway,《太阳照常升起》
+> —— 欧内斯特·海明威（Ernest Hemingway）,《太阳照常升起》
 
 > Luck is what happens when preparation meets opportunity.
 > 运气是准备遇上机会。
 >
-> —— Seneca
+> —— 塞内加（Seneca）
 
 我尝试过攀岩，在下面看很简单，真上去了，经常发现抓不到下一个点，或者体力不支，掉下来。
 
 创业也是这样。产品的 PMF 就是落脚点，现金流决定你能撑多久。你不知道下一个点在哪，只能一边攀爬一边找。
 
-乔布斯说 connect the dots，指的是事后回看，才能把点连成线。身处其中时，只能相信这些点终将连接。
+乔布斯（Steve Jobs）说 connect the dots，指的是事后回看，才能把点连成线。身处其中时，只能相信这些点终将连接。
 
 ## 平淡期是常态
 

@@ -12,7 +12,7 @@
 > A ship in harbor is safe, but that is not what ships are built for.
 > 船停在港口是安全的，但那不是造船的目的。
 >
-> —— John A. Shedd
+> —— 约翰·A·谢德（John A. Shedd）
 
 ## 为什么要全球化
 

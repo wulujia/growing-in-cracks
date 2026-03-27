@@ -3,7 +3,7 @@
 > Live the questions now. Perhaps you will then gradually, without noticing it, live along some distant day into the answer.
 > 活在问题里。也许有一天，你会不知不觉地活进答案中。
 >
-> —— Rainer Maria Rilke
+> —— 赖纳·马利亚·里尔克（Rainer Maria Rilke）
 
 > 大处着眼，小处着手。
 >

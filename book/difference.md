@@ -7,7 +7,7 @@
 > Competition is for losers.
 > 竞争是留给失败者的。
 >
-> —— Peter Thiel，《从零到一》
+> —— 彼得·蒂尔（Peter Thiel），《从零到一》
 
 ## 为什么要不一样
 

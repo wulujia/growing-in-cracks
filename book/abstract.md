@@ -11,7 +11,7 @@
 > Write programs that do one thing and do it well. Write programs to work together.
 > 写程序，让每个程序只做好一件事。写程序，让程序能协同工作。
 >
-> —— Doug McIlroy，UNIX 哲学
+> —— 道格·麦克罗伊（Doug McIlroy），UNIX 哲学
 
 产品做着做着，会遇到一个时刻：曾经的定位不起作用，需要重新想自己到底在做什么。
 

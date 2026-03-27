@@ -12,7 +12,7 @@
 > Compound interest is like a snowball of sticky snow. The trick is to have a very long hill.
 > 复利就像一个黏雪球。关键是找到一条足够长的坡。
 >
-> —— 沃伦·巴菲特
+> —— 沃伦·巴菲特（Warren Buffett）
 
 留存是判断产品方向对不对的核心信号。留存好，说明产品解决了真问题，用户愿意留下来。留存差，说明产品-市场契合度不行，可能需要调方向。
 
@@ -26,7 +26,7 @@
 
 ## 留存是最重要的指标
 
-Casey Winters 曾任 Pinterest 和 Grubhub 的增长负责人，他说：
+凯西·温特斯（Casey Winters）曾任 Pinterest 和 Grubhub 的增长负责人，他说：
 
 > 好的留存是产品规模化增长的方式。它是产品市场匹配度的最佳指标，是用户生命周期价值的最重要因素，高留存驱动所有最佳的获客策略。
 
@@ -60,7 +60,7 @@ Casey Winters 曾任 Pinterest 和 Grubhub 的增长负责人，他说：
 
 ### 多邻国的用户分层模型
 
-多邻国是一款语言学习 App，2019 年时增长遇到瓶颈。多邻国 CPO Jorge Mazal 分享过他们的做法：把所有用户分成七个桶，每个用户每天只能在一个桶里（图 22-1）。
+多邻国是一款语言学习 App，2019 年时增长遇到瓶颈。多邻国 CPO 豪尔赫·马扎尔（Jorge Mazal）分享过他们的做法：把所有用户分成七个桶，每个用户每天只能在一个桶里（图 22-1）。
 
 ![](img/retention-01.png)
 
