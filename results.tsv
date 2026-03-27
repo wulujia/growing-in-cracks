@@ -1,6 +1,12 @@
 commit	avg_score	status	description
-f753810	80	baseline	—
-7be7e95	83	keep	替换两条误引为Peter Thiel可靠引言并合并为一条
-3be6bc9	85	keep	改写PPT式编号标准融入叙述体
-c6d311f	87	keep	用广场案例直接引入去掉三连抽象名词咨询报告感
-dc1c927	89	keep	合并结尾两段消除而非模式重复
+e382550	87	baseline	—
+2d042b5	89	keep	合并两条开场引言保留布兰克去掉莱斯通用引言
+3862ac1	91	keep	去掉写在基因里套话和被拒绝是起点鸡汤
+1758bda	92	keep	把搞崩服务器的糗事独立成段增加节奏感
+e42d56c	93	keep	去掉参与感是粘性来源的buzzword句直接讲例子
+54cd08b	94	keep	精简人工代替系统总结段去掉好处是的教科书句
+2114648	95	keep	去掉质量远比数量重要的泛泛总结保留具体描述
+86d99b9	96	keep	精简超预期体验总结去掉与L61重复的大公司CEO对比
+954f8a4	95	revert	拆分Reddit段（未提升）
+c76b3a9	96	revert	去掉答案是的问答体（未提升）
+03b8b59	97	keep	重新应用合并引言保留布兰克补英文名
