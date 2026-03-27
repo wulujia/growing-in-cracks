@@ -58,7 +58,7 @@
   - [价值观与规则](book/value.md)
   - [工作与生活平衡](book/worklifebalance.md)
   - [远程办公](book/remote.md)
-  - [AI 撞过来了](book/ai.md)
+  - [AI 撞上知识星球](book/ai.md)
 
 - 第八部分：夹缝里的同路人
 
