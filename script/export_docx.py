@@ -37,7 +37,7 @@ INDEX_FILE = os.path.join(ROOT_DIR, "index.md")
 DEFAULT_OUTPUT = os.path.join(ROOT_DIR, "output", "夹缝生长.docx")
 
 # 不需要问题页的文件
-SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md", "acknowledgments.md"}
+SKIP_QUESTION_FILES = {"restart.md", "crack.md", "flomo.md", "wuma.md", "scys.md", "acknowledgments.md"}
 
 # 不参与编号的特殊文件
 SPECIAL_FILES = {"restart.md", "crack.md", "acknowledgments.md"}
