@@ -76,7 +76,7 @@ Mailchimp 的故事值得多说几句。
 
 ## 融资的理由
 
-另一边，Y Combinator 的保罗·格雷厄姆（Paul Graham）代表了”应该融资”的观点。
+另一边，Y Combinator 的保罗·格雷厄姆（Paul Graham）代表了“应该融资”的观点。
 
 他的核心论点是：融资让你用钱换时间。
 
